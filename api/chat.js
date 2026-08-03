@@ -1,4 +1,4 @@
-﻿/**
+/**
  * LOLO SOBRE RUEDAS ÔÇö API de Chat con Gemini
  * Vercel Serverless Function
  * 
@@ -219,7 +219,7 @@ export default async function handler(req, res) {
   } catch (err) {
     console.error('Error en handler:', err);
     return res.status(500).json({ 
-      error: 'Error interno del servidor',
+      error: err.message,
       reply: 'Ups, tuve un problemita. Prob├í de nuevo en un ratito.'
     });
   }
