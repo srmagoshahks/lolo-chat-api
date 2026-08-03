@@ -1,0 +1,6832 @@
+[
+  {
+    "codigo": "1100000586838",
+    "nombre": "ACEITERO PINCEL",
+    "proveedor": "REYES DEL OESTE",
+    "precio": 13900.0,
+    "stock": 2,
+    "descripcion": "FRASCO CON TAPA PLÁSTICA Y PINCEL DE SILICONA PARA MAYOR FACILIDAD DE UTILZIACIÓN",
+    "fotos": [
+      "prod_341_20260725_113803_1.jpg"
+    ]
+  },
+  {
+    "codigo": "20",
+    "nombre": "ACEITERO TAPA PLÁSTICA CON ROCIADOR",
+    "proveedor": "REYES DEL OESTE",
+    "precio": 6000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_2461_20260722_181413_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "7790780114105",
+    "nombre": "ACEITERO TAPA PLÁSTICA CON ROCIADOR RECTO",
+    "proveedor": "ELECTRO BOHEMIA",
+    "precio": 6000.0,
+    "stock": 2,
+    "descripcion": "FRASCO DE VIDRIO CON TAPA PLÁSTICA Y EFECTO ROCIADOR",
+    "fotos": [
+      "prod_343_20260718_192539_0.jpg"
+    ]
+  },
+  {
+    "codigo": "6953070995629",
+    "nombre": "ACUARELA CIRCULAR",
+    "proveedor": "nan",
+    "precio": 2000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_344_20260718_202322_0.webp"
+    ]
+  },
+  {
+    "codigo": "6890000041622",
+    "nombre": "ACUARELAS X 12",
+    "proveedor": "nan",
+    "precio": 1550.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_345_20260718_202516_0.jpg"
+    ]
+  },
+  {
+    "codigo": "6941920432868",
+    "nombre": "ACUARELAS X 6",
+    "proveedor": "nan",
+    "precio": 4000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_346_20260718_202526_0.jpg"
+    ]
+  },
+  {
+    "codigo": "C35",
+    "nombre": "ADAPTADOR TURBO POWER 66W",
+    "proveedor": "MERCURIO TECH",
+    "precio": 7100.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3688_20260724_185817_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "C8",
+    "nombre": "ALBUM MUNDIAL",
+    "proveedor": "",
+    "precio": 15000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3660_20260720_122511_0.webp"
+    ]
+  },
+  {
+    "codigo": "230",
+    "nombre": "ALFOMBRA COMEDERO",
+    "proveedor": "",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3474_20260724_185610_1.jpeg"
+    ]
+  },
+  {
+    "codigo": "168",
+    "nombre": "ALHAJERO CON DIVISION CUADRADO",
+    "proveedor": "",
+    "precio": 9550.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3366_20260724_190013_1.jpeg"
+    ]
+  },
+  {
+    "codigo": "169",
+    "nombre": "ANILLOS",
+    "proveedor": "",
+    "precio": 1000.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6985425445527",
+    "nombre": "ANOTADOR CAJITA Milk/CORAZÓN",
+    "proveedor": "FLASH MAYORISTA",
+    "precio": 2000.0,
+    "stock": 5,
+    "descripcion": "",
+    "fotos": [
+      "prod_347_20260722_185134_2.jpeg"
+    ]
+  },
+  {
+    "codigo": "6938345169264",
+    "nombre": "ANOTADOR CHICO",
+    "proveedor": "nan",
+    "precio": 1800.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": [
+      "prod_348_20260722_185219_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "4851569598547",
+    "nombre": "ANOTADOR KUROMI CON STICHERS",
+    "proveedor": "nan",
+    "precio": 3300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_349_20260722_184339_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6514238850398",
+    "nombre": "ANOTADOR LABUBU",
+    "proveedor": "nan",
+    "precio": 4800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_350_20260722_184324_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "170",
+    "nombre": "ANTEOJOS PARA SOL",
+    "proveedor": "",
+    "precio": 3000.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": [
+      "prod_3368_20260724_185429_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6954513213676",
+    "nombre": "ANTIFAZ ANTIMIGRAÑAS",
+    "proveedor": "TECNO IMPORTACIONES",
+    "precio": 7300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_351_20260718_202649_0.jpg"
+    ]
+  },
+  {
+    "codigo": "C10",
+    "nombre": "ANTIFAZ OJITOS",
+    "proveedor": "",
+    "precio": 3600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3667_20260724_161500_1.jpeg"
+    ]
+  },
+  {
+    "codigo": "171",
+    "nombre": "AROS",
+    "proveedor": "",
+    "precio": 3000.0,
+    "stock": 8,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "172",
+    "nombre": "AROS",
+    "proveedor": "",
+    "precio": 2000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "4567613131454",
+    "nombre": "AURICULAR BT P47",
+    "proveedor": "MERCURIO TECH",
+    "precio": 7300.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": [
+      "prod_352_20260718_202853_0.webp",
+      "prod_352_20260718_202853_1.jpg"
+    ]
+  },
+  {
+    "codigo": "6954774700090",
+    "nombre": "AURICULAR BT P9 MAX",
+    "proveedor": "ELECTRO BOHEMIA",
+    "precio": 12100.0,
+    "stock": 1,
+    "descripcion": "auriculas top",
+    "fotos": [
+      "prod_353_20260718_203016_0.webp"
+    ]
+  },
+  {
+    "codigo": "142",
+    "nombre": "AURICULAR E6S",
+    "proveedor": "MERCURIO TECH",
+    "precio": 10000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3308_20260724_101047_0.webp",
+      "prod_3308_20260724_101054_1.webp",
+      "prod_3308_20260724_101054_2.webp"
+    ]
+  },
+  {
+    "codigo": "C37",
+    "nombre": "AURICULAR I12",
+    "proveedor": "MERCURIO TECH",
+    "precio": 10000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3691_20260718_192215_0.jpg"
+    ]
+  },
+  {
+    "codigo": "141",
+    "nombre": "AURICULAR INALÁMBRICO BLUETOOTH BTH -F9-5",
+    "proveedor": "MERCURIO TECH",
+    "precio": 10000.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": [
+      "prod_3307_20260724_183806_1.jpeg",
+      "prod_3307_20260724_183954_2.webp"
+    ]
+  },
+  {
+    "codigo": "e6202505292056",
+    "nombre": "AURICULAR ULTRA POD MAX",
+    "proveedor": "ELECTRO BOHEMIA",
+    "precio": 9800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_354_20260718_184035_0.jpg"
+    ]
+  },
+  {
+    "codigo": "e6952025308705",
+    "nombre": "AUTO RADIO CONTROL",
+    "proveedor": "REYES DEL OESTE",
+    "precio": 32800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4424_20260724_161707_1.jpeg"
+    ]
+  },
+  {
+    "codigo": "6972823380055",
+    "nombre": "AVION DESARMABLE USB CON LUZ",
+    "proveedor": "INOVA",
+    "precio": 14600.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_355_20260717_102431_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "e7790780052124",
+    "nombre": "AZUCARERA",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 2700.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_4380_20260716_180011_1.webp",
+      "prod_4380_20260716_180011_2.webp"
+    ]
+  },
+  {
+    "codigo": "173",
+    "nombre": "BALANZA DIGITAL MINI",
+    "proveedor": "",
+    "precio": 3500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3372_20260718_190934_0.jpg"
+    ]
+  },
+  {
+    "codigo": "e6971764129662",
+    "nombre": "BALSAMO  Kitty/Stitch/Kuromi",
+    "proveedor": "nan",
+    "precio": 4000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_356_20260724_161941_0.webp"
+    ]
+  },
+  {
+    "codigo": "02",
+    "nombre": "BALSAMO DONA",
+    "proveedor": "CHINO NUEVO SANTA",
+    "precio": 3000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_357_20260724_162021_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "01",
+    "nombre": "BALSAMO FRUTILLA",
+    "proveedor": "CHINO NUEVO SANTA",
+    "precio": 3000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_358_20260716_110253_0.png"
+    ]
+  },
+  {
+    "codigo": "175",
+    "nombre": "BALSAMO POTE CHICO",
+    "proveedor": "",
+    "precio": 2500.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": [
+      "prod_3375_20260724_162056_0.jpg"
+    ]
+  },
+  {
+    "codigo": "21",
+    "nombre": "BANDEJA DE MADERA CON LÁMINA",
+    "proveedor": "PRECIOS CUIDADOS",
+    "precio": 4350.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_2463_20260724_162148_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "22",
+    "nombre": "BANDEJA INDIVIDUAL PLÁSTICA",
+    "proveedor": "",
+    "precio": 2330.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_2464_20260724_162234_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "23",
+    "nombre": "BANDEJA MADERA RECTA",
+    "proveedor": "",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_2465_20260724_162303_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "24",
+    "nombre": "BANDEJA PARA CAMA CON PATAS",
+    "proveedor": "PRECIOS CUIDADOS",
+    "precio": 7550.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_2466_20260724_180917_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "7170972997110",
+    "nombre": "BANDEJA SILICONA PARA MESADA",
+    "proveedor": "nan",
+    "precio": 4000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_359_20260718_203151_0.webp"
+    ]
+  },
+  {
+    "codigo": "176",
+    "nombre": "BANDERA ARGENTINA",
+    "proveedor": "MERCURIO TECH",
+    "precio": 1000.0,
+    "stock": 5,
+    "descripcion": "",
+    "fotos": [
+      "prod_3376_20260720_101338_0.webp"
+    ]
+  },
+  {
+    "codigo": "75",
+    "nombre": "BANDOLERA PARA QUENCHER",
+    "proveedor": "Inova",
+    "precio": 15000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3218_20260720_103207_0.webp"
+    ]
+  },
+  {
+    "codigo": "76",
+    "nombre": "BASE ANTIDESLIZANTE PARA QUENCHER",
+    "proveedor": "Inova",
+    "precio": 6000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3219_20260720_103142_0.webp"
+    ]
+  },
+  {
+    "codigo": "C16",
+    "nombre": "BILLETERA LILA/ANIMAL PRINT",
+    "proveedor": "",
+    "precio": 4500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3673_20260724_185513_0.jpeg",
+      "prod_3673_20260724_185840_1.jpeg"
+    ]
+  },
+  {
+    "codigo": "7943212511618",
+    "nombre": "BILLETERA MUJER",
+    "proveedor": "nan",
+    "precio": 8000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_360_20260724_185541_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "7453105017160",
+    "nombre": "BLOQUES MAGNÉTICOS",
+    "proveedor": "TECNO IMPORTACIONES",
+    "precio": 12300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_363_20260717_102100_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "C7",
+    "nombre": "BOINA",
+    "proveedor": "MERCURIO TECH",
+    "precio": 4500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3659_20260724_162449_0.webp"
+    ]
+  },
+  {
+    "codigo": "E6950251221249",
+    "nombre": "BOLSA AGUA CALIENTE CON FUNDA LISA/C UADROS",
+    "proveedor": "Josefina",
+    "precio": 5500.0,
+    "stock": 8,
+    "descripcion": "",
+    "fotos": [
+      "prod_364_20260720_103114_0.webp",
+      "prod_364_20260720_103114_1.webp"
+    ]
+  },
+  {
+    "codigo": "E6973724670016",
+    "nombre": "BOLSA AGUA CALIENTE MINI HANDS LIFE/ PELUDITAS",
+    "proveedor": "Josefina",
+    "precio": 5000.0,
+    "stock": 6,
+    "descripcion": "",
+    "fotos": [
+      "prod_365_20260724_162547_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E6972089610088",
+    "nombre": "BOLSA AGUA CALIENTE MINI RABBIT/TOP N°1",
+    "proveedor": "Josefina",
+    "precio": 4000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_366_20260724_162621_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "177",
+    "nombre": "BOLSO TIPO PUFFER C/MANIJA (Rosa)",
+    "proveedor": "EL PRINCIPITO",
+    "precio": 18000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "124",
+    "nombre": "BOMBILLA ALUMINIO COLORES",
+    "proveedor": "ARTE Y ESCENCIA",
+    "precio": 2000.0,
+    "stock": 9,
+    "descripcion": "",
+    "fotos": [
+      "prod_3280_20260718_203319_0.webp"
+    ]
+  },
+  {
+    "codigo": "125",
+    "nombre": "BOMBILLA CAJA",
+    "proveedor": "MERCURIO TECH",
+    "precio": 5000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3281_20260724_182039_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "77",
+    "nombre": "BOTELLA ACERO INOXIDABLE (TUCAN)",
+    "proveedor": "",
+    "precio": 6700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3220_20260720_102801_0.jpg"
+    ]
+  },
+  {
+    "codigo": "78",
+    "nombre": "BOTELLA AFA",
+    "proveedor": "",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3221_20260720_102737_0.webp"
+    ]
+  },
+  {
+    "codigo": "79",
+    "nombre": "BOTELLA CHAOIST SCHOOL",
+    "proveedor": "EL PRINCIPITO",
+    "precio": 15000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "80",
+    "nombre": "BOTELLA DAISY CON LLAVERO, FLOR Y MANIJA",
+    "proveedor": "EL PRINCIPITO",
+    "precio": 15000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6900012045737",
+    "nombre": "BOTELLA DE VIDRIO CON VASO",
+    "proveedor": "ARTE Y ESCENCIAS",
+    "precio": 14000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "81",
+    "nombre": "BOTELLA DRINK-ENERGIA POSITIVA",
+    "proveedor": "EL PRINCIPITO",
+    "precio": 6000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "82",
+    "nombre": "BOTELLA EARBUDS 800 ML",
+    "proveedor": "EL PRINCIPITO",
+    "precio": 20000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3225_20260716_102237_0.png",
+      "prod_3225_20260716_102238_1.png"
+    ]
+  },
+  {
+    "codigo": "83",
+    "nombre": "BOTELLA FLAMENCO",
+    "proveedor": "",
+    "precio": 2500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "84",
+    "nombre": "BOTELLA GEO TROPICAL/INFANTIL",
+    "proveedor": "",
+    "precio": 3500.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "85",
+    "nombre": "BOTELLA HERO/HI FASHION",
+    "proveedor": "EL PRINCIPITO",
+    "precio": 8500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "86",
+    "nombre": "BOTELLA MOTIVACIONAL X3",
+    "proveedor": "",
+    "precio": 14000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "87",
+    "nombre": "BOTELLA ON THE GO 460 ML",
+    "proveedor": "EL PRINCIPITO",
+    "precio": 18000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "88",
+    "nombre": "BOTELLA ROJA CON ENFRIADOR",
+    "proveedor": "EL PRINCIPITO",
+    "precio": 8500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "89",
+    "nombre": "BOTELLA SHARED/CORAZÓN",
+    "proveedor": "EL PRINCIPITO",
+    "precio": 12000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6952025010127",
+    "nombre": "BOTELLA SINGLE WALL 750 CC",
+    "proveedor": "nan",
+    "precio": 13000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_368_20260718_184312_0.jpg"
+    ]
+  },
+  {
+    "codigo": "90",
+    "nombre": "BOTELLA SPORT ROLAN 750 ML",
+    "proveedor": "",
+    "precio": 18000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3234_20260718_190618_0.jpg"
+    ]
+  },
+  {
+    "codigo": "91",
+    "nombre": "BOTELLA SPORT ROSADA (CON AGARRE)",
+    "proveedor": "",
+    "precio": 1800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "92",
+    "nombre": "BOTELLA STAR/FASHION/COOL/SPORT",
+    "proveedor": "",
+    "precio": 13000.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e2025092541147",
+    "nombre": "BOTELLA TERMICA 500 ML",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 15600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "94",
+    "nombre": "BOTELLA TOMATODO FASHON DOBLE PICO",
+    "proveedor": "EL PRINCIPITO",
+    "precio": 8500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6952025010110",
+    "nombre": "BOTELLA TÉRMICA ROSA 500 ML",
+    "proveedor": "",
+    "precio": 15000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3658_20260718_192144_0.jpg"
+    ]
+  },
+  {
+    "codigo": "93",
+    "nombre": "BOTELLA TÉRMICA SIMIL STANLEY  C/RELIEVE",
+    "proveedor": "EL PRINCIPITO",
+    "precio": 20000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3237_20260720_102711_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E7790000267802",
+    "nombre": "BOTELLA VACUUM CUP 460 ML",
+    "proveedor": "nan",
+    "precio": 18000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "95",
+    "nombre": "BOTELLA VIDRIO DIAMANTE",
+    "proveedor": "",
+    "precio": 8000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "96",
+    "nombre": "BOTELLAS STITCH (X2)",
+    "proveedor": "",
+    "precio": 8500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7170972992474",
+    "nombre": "BOWL SILICONA PLEGABLE (ROSA)",
+    "proveedor": "nan",
+    "precio": 5950.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C25",
+    "nombre": "BOWLS ACERO 24 CM",
+    "proveedor": "ARTE Y ESCENCIA",
+    "precio": 3300.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3682_20260720_102658_0.webp"
+    ]
+  },
+  {
+    "codigo": "C24",
+    "nombre": "BOWLS DE ACERO 16 CM",
+    "proveedor": "ARTE Y ESCENCIA",
+    "precio": 1800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3681_20260720_102643_0.png"
+    ]
+  },
+  {
+    "codigo": "6923490400119",
+    "nombre": "BRAZALETE DEPORTIVO PORTA CELULAR",
+    "proveedor": "nan",
+    "precio": 2000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_371_20260720_102623_0.jpg"
+    ]
+  },
+  {
+    "codigo": "178",
+    "nombre": "BROCHE FLOR",
+    "proveedor": "",
+    "precio": 2500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E4029100172024",
+    "nombre": "BROCHE ONDAS/INFINITO  TRANSPARENTE p/pelo",
+    "proveedor": "nan",
+    "precio": 2500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "179",
+    "nombre": "BROCHE TIC TAC CON MOÑO X2",
+    "proveedor": "",
+    "precio": 2000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "180",
+    "nombre": "BROCHE TIC TAC FLOR CHICA X2",
+    "proveedor": "",
+    "precio": 1000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "G4790010530516",
+    "nombre": "BROCHES COLOR X6",
+    "proveedor": "nan",
+    "precio": 2500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "181",
+    "nombre": "BROCHES MARRONES X 3",
+    "proveedor": "",
+    "precio": 1500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7",
+    "nombre": "BROCHES PERSONITA",
+    "proveedor": "",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3064_20260724_181926_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E6991006210040",
+    "nombre": "BROCHES TIC TAC NEGROS GRANDES X 2",
+    "proveedor": "nan",
+    "precio": 1800.0,
+    "stock": 10,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "182",
+    "nombre": "BROCHES TRENDY EN SET",
+    "proveedor": "",
+    "precio": 2500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "233",
+    "nombre": "BURBUJERO \"CON MOTO\"",
+    "proveedor": "EL PRINCIPITO",
+    "precio": 2500.0,
+    "stock": 12,
+    "descripcion": "",
+    "fotos": [
+      "prod_3484_20260720_105042_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "7450077125176",
+    "nombre": "BURBUJERO ANIMALITO (BLISTER)",
+    "proveedor": "nan",
+    "precio": 6200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_377_20260724_163744_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6920241016018",
+    "nombre": "BURBUJERO BUBBLE",
+    "proveedor": "nan",
+    "precio": 8900.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_375_20260724_163820_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "234",
+    "nombre": "BURBUJERO GRANDE",
+    "proveedor": "",
+    "precio": 3500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3485_20260720_184343_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E2025050704713",
+    "nombre": "BURBUJEROS BUBBLE TOYS",
+    "proveedor": "CHINO NUEVO SANTA",
+    "precio": 1000.0,
+    "stock": 48,
+    "descripcion": "",
+    "fotos": [
+      "prod_378_20260720_105154_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "150",
+    "nombre": "CABLE AUXILIAR P/PARLANTE",
+    "proveedor": "",
+    "precio": 1550.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C36",
+    "nombre": "CABLE TIPO C 2 METROS",
+    "proveedor": "MERCURIO TECH",
+    "precio": 2500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "2023170515363",
+    "nombre": "CAFETERA PRENSA FRANCESA 600CC BLACK",
+    "proveedor": "nan",
+    "precio": 22350.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_379_20260720_111934_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "e2022070800197",
+    "nombre": "CAJA  HUEVOS MALETIN",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 4500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_4391_20260716_181119_1.webp"
+    ]
+  },
+  {
+    "codigo": "183",
+    "nombre": "CAJA ACRÍLICO CON GOMITAS ROSA/ KUROMI",
+    "proveedor": "",
+    "precio": 4000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "184",
+    "nombre": "CAJA CON GOMITAS Y BROCHES WEIYA",
+    "proveedor": "",
+    "precio": 3500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E4790000540274",
+    "nombre": "CAJA GOMITAS NEGRAS (REDONDA)",
+    "proveedor": "nan",
+    "precio": 4000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "G4790000540214",
+    "nombre": "CAJA GOMITAS ROSADAS (REDONDA)",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6936310129602",
+    "nombre": "CAJA MINI DIVISIONES (CRUZ ROJA)",
+    "proveedor": "nan",
+    "precio": 1500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "8",
+    "nombre": "CAJA PARA 10 HUEVOS CON TAPA",
+    "proveedor": "MERCURIO TECH",
+    "precio": 6000.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": [
+      "prod_3066_20260716_103157_0.png"
+    ]
+  },
+  {
+    "codigo": "E6970399340091",
+    "nombre": "CAJA PARA HUEVOS X 30 CON MARCADOR FECHA",
+    "proveedor": "nan",
+    "precio": 20000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_383_20260720_102452_0.webp"
+    ]
+  },
+  {
+    "codigo": "e2022092700048",
+    "nombre": "CAJAS PLEGABLES CHICA",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 4100.0,
+    "stock": 5,
+    "descripcion": "",
+    "fotos": [
+      "prod_4401_20260716_181021_1.webp"
+    ]
+  },
+  {
+    "codigo": "235",
+    "nombre": "CAJITA PARA ARMAR BIJOU FORMITAS",
+    "proveedor": "",
+    "precio": 3600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e2021861201137",
+    "nombre": "CAJON  ESCRITORIO GRANDE",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 10800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4388_20260716_181256_0.webp"
+    ]
+  },
+  {
+    "codigo": "E7791231108179",
+    "nombre": "CAJON RATAN 5 LTS",
+    "proveedor": "",
+    "precio": 4500.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e6902136498710",
+    "nombre": "CALCULADORA MINI",
+    "proveedor": "nan",
+    "precio": 3500.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "PRO9",
+    "nombre": "CAMARA FOTOS IMPRIME",
+    "proveedor": "",
+    "precio": 48000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4417_20260724_163326_1.jpeg"
+    ]
+  },
+  {
+    "codigo": "6904202520202",
+    "nombre": "CAMIÓN TRAILER \"ESTAMPA ANIMALES\" 6 RUEDAS",
+    "proveedor": "nan",
+    "precio": 2900.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_385_20260724_163240_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "PRO13",
+    "nombre": "CANASO DE ROPA BAMBU",
+    "proveedor": "REYES DEL OESTE",
+    "precio": 34000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "9",
+    "nombre": "CANASTO PLEGABLE 40X28X19CM CUADRILLE",
+    "proveedor": "",
+    "precio": 6700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e6970491588018",
+    "nombre": "CAPA DE  LLUVIA",
+    "proveedor": "nan",
+    "precio": 1000.0,
+    "stock": 10,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6952487545472",
+    "nombre": "CARAMELERA VIDRIO CON TAPA",
+    "proveedor": "nan",
+    "precio": 5300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7816959912157",
+    "nombre": "CARGADOR TIPO C 20W",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7798280733710",
+    "nombre": "CARPETAS",
+    "proveedor": "nan",
+    "precio": 9000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_389_20260722_185047_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "236",
+    "nombre": "CARRITO COCINA 2 EN 1",
+    "proveedor": "",
+    "precio": 9100.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3491_20260717_115109_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "247",
+    "nombre": "CARTERA CAPIBARA",
+    "proveedor": "",
+    "precio": 5600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3540_20260724_163129_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "185",
+    "nombre": "CARTERA PORTA CELULAR",
+    "proveedor": "",
+    "precio": 15000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "249",
+    "nombre": "CARTUCHERA ASTRONAUTA Y COHETE\\\\Unicornio relieve",
+    "proveedor": "",
+    "precio": 7700.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "4894653701157",
+    "nombre": "CARTUCHERA DOBLE",
+    "proveedor": "nan",
+    "precio": 5800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6922468224986",
+    "nombre": "CARTUCHERA METAL AUTO",
+    "proveedor": "nan",
+    "precio": 6500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e6985668875686",
+    "nombre": "CEPILLO AUTOLIMPIANTE MASCOTAS",
+    "proveedor": "nan",
+    "precio": 7500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e2400000244585",
+    "nombre": "CEPILLO CON MANGO",
+    "proveedor": "nan",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6820251566070",
+    "nombre": "CEPILLO EXFOLIANTE SILICONA",
+    "proveedor": "nan",
+    "precio": 6000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "186",
+    "nombre": "CEPILLO INFANTIL KAWAI \"FORMA ESPEJO\"",
+    "proveedor": "",
+    "precio": 4100.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C18",
+    "nombre": "CEPILLO LIMPIEZA BOMBILLA",
+    "proveedor": "ARTE Y ESCENCIA",
+    "precio": 1000.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e2022092700437",
+    "nombre": "CEPILLO PARA BAÑO",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 5200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4394_20260716_182310_0.webp"
+    ]
+  },
+  {
+    "codigo": "e6995969856352",
+    "nombre": "CEPILLO PARA MASCOTAS CON MANGO, USB CON VAPOR",
+    "proveedor": "nan",
+    "precio": 7500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6952023501238",
+    "nombre": "CEPILLO SILICONA PARA COCINA",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e7170972996434",
+    "nombre": "CESTO  ROPA SUCIA  2/DIVISIONES",
+    "proveedor": "TECNO IMPORTACIONES",
+    "precio": 24100.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3697_20260716_104901_0.png",
+      "prod_3697_20260718_192325_1.jpg"
+    ]
+  },
+  {
+    "codigo": "E4894130979574",
+    "nombre": "CESTO OVAL SIMIL RATÁN",
+    "proveedor": "",
+    "precio": 4500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3650_20260718_191717_0.jpg"
+    ]
+  },
+  {
+    "codigo": "e6902026030389",
+    "nombre": "CESTO ROPA SUCIA 3 DIVISIONES",
+    "proveedor": "REYES DEL OESTE",
+    "precio": 32800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "10",
+    "nombre": "CIERRA BOLSA CON PICO",
+    "proveedor": "",
+    "precio": 2900.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "11",
+    "nombre": "CIERRA BOLSA CUCHARA X 4",
+    "proveedor": "",
+    "precio": 3000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "12",
+    "nombre": "CIERRA BOLSA NARANJA",
+    "proveedor": "",
+    "precio": 1500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "151",
+    "nombre": "CINEMA LIGHT (CUADRO CON LUZ Y LETRAS)",
+    "proveedor": "",
+    "precio": 18000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3326_20260720_102350_0.jpg"
+    ]
+  },
+  {
+    "codigo": "PRO15",
+    "nombre": "CINTURON DEPORTIVO",
+    "proveedor": "",
+    "precio": 3000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4435_20260724_183634_0.jpg"
+    ]
+  },
+  {
+    "codigo": "205",
+    "nombre": "COFIA PARA PELO",
+    "proveedor": "",
+    "precio": 1500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e2025030911209",
+    "nombre": "COHETE PARA PITAR",
+    "proveedor": "REYES DEL OESTE",
+    "precio": 13000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e7790780078162",
+    "nombre": "COLADOR ARROZ",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 2700.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_4403_20260716_181523_0.webp"
+    ]
+  },
+  {
+    "codigo": "13",
+    "nombre": "COLADOR LATA",
+    "proveedor": "",
+    "precio": 800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6954260316095",
+    "nombre": "COLADOR MODACO METAL",
+    "proveedor": "nan",
+    "precio": 5000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6914545129192",
+    "nombre": "COLADOR PLÁSTICO CON MANGO",
+    "proveedor": "nan",
+    "precio": 3400.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "187",
+    "nombre": "COLGANTE PARA CARGAR CELULAR",
+    "proveedor": "",
+    "precio": 1000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "Gvtbf54389",
+    "nombre": "COLGANTES  ADHESIVOS",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E4790000540373",
+    "nombre": "COLITAS CAPIBARA X 5",
+    "proveedor": "nan",
+    "precio": 1800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "188",
+    "nombre": "COLITAS CON BRILLO X 10",
+    "proveedor": "",
+    "precio": 1000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "189",
+    "nombre": "COLITAS PARA CABELLO BLANCOS X 6 GRANDES",
+    "proveedor": "",
+    "precio": 2400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6621820161388",
+    "nombre": "COLITAS X 12 COLEGIALES (VARIOS COLORES)",
+    "proveedor": "nan",
+    "precio": 2000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "190",
+    "nombre": "COLITAS X 2 CON CONEJITO",
+    "proveedor": "",
+    "precio": 1200.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "191",
+    "nombre": "COLITAS X6 COLEGIALES (VARIOS COLORES)",
+    "proveedor": "",
+    "precio": 1000.0,
+    "stock": 24,
+    "descripcion": "",
+    "fotos": [
+      "prod_3405_20260718_191029_0.jpg"
+    ]
+  },
+  {
+    "codigo": "228",
+    "nombre": "COLLAR/CORREA MASCOTA",
+    "proveedor": "",
+    "precio": 4600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "97",
+    "nombre": "COMBO ACCESORIOS QUENCHER (CORREA, ENGANCHE, BASE)",
+    "proveedor": "",
+    "precio": 13000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "229",
+    "nombre": "COMEDERO ECONÓMICO",
+    "proveedor": "",
+    "precio": 1700.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3473_20260720_102328_0.webp"
+    ]
+  },
+  {
+    "codigo": "7514182645827",
+    "nombre": "COMPAS EN CAJA",
+    "proveedor": "nan",
+    "precio": 2100.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": [
+      "prod_401_20260722_184238_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "14",
+    "nombre": "CONTENEDOR AJO",
+    "proveedor": "",
+    "precio": 1470.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3076_20260720_102305_0.jpg"
+    ]
+  },
+  {
+    "codigo": "15",
+    "nombre": "CONTENEDOR DOS COMPARTIMENTOS",
+    "proveedor": "",
+    "precio": 4450.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3077_20260720_102146_0.avif"
+    ]
+  },
+  {
+    "codigo": "16",
+    "nombre": "CONTENEDOR PIMIENTOS",
+    "proveedor": "",
+    "precio": 2000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3078_20260720_102251_0.jpg"
+    ]
+  },
+  {
+    "codigo": "E1100000379430",
+    "nombre": "COPA TEXTURA TRANSPARENTE",
+    "proveedor": "nan",
+    "precio": 32500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_402_20260718_185531_0.jpg"
+    ]
+  },
+  {
+    "codigo": "E6991015815656",
+    "nombre": "COPA VIDRIO ROMBO SET X 6",
+    "proveedor": "nan",
+    "precio": 32500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "98",
+    "nombre": "CORREA PARA QUENCHER",
+    "proveedor": "",
+    "precio": 6100.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6941682609072",
+    "nombre": "CORRECTOR CINTA",
+    "proveedor": "nan",
+    "precio": 1600.0,
+    "stock": 5,
+    "descripcion": "",
+    "fotos": [
+      "prod_404_20260724_174954_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E6963325962122",
+    "nombre": "CORTADORA DE VERDURAS MANUAL",
+    "proveedor": "",
+    "precio": 9000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3079_20260718_190350_0.jpg"
+    ]
+  },
+  {
+    "codigo": "6905060125301",
+    "nombre": "CUADERNO A5 CON DISEÑOS 3D",
+    "proveedor": "nan",
+    "precio": 4000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_405_20260722_184358_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "4790020306348",
+    "nombre": "CUADERNO CON LAPICERA TRENDY",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "250",
+    "nombre": "CUADERNO ESPIRAL CON FRASES",
+    "proveedor": "",
+    "precio": 4500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3571_20260722_184855_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "720665972541",
+    "nombre": "CUADERNO TAPA DURA X 42 HOJAS",
+    "proveedor": "nan",
+    "precio": 1900.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_407_20260722_184839_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "720665972572",
+    "nombre": "CUADERNO TAPA DURA X 84 HOJAS",
+    "proveedor": "nan",
+    "precio": 3300.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_408_20260722_184828_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6936254802067",
+    "nombre": "CUADERNO/LIBRETA \"PATITAS DE GATO\" A5 C/4 SEPARADORES",
+    "proveedor": "nan",
+    "precio": 5300.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_409_20260722_184412_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "251",
+    "nombre": "CUADERNOS HOJAS LISAS PERSONAJES",
+    "proveedor": "",
+    "precio": 2800.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": [
+      "prod_3575_20260722_184811_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E6917190074718",
+    "nombre": "CUBETERA BOTELLA",
+    "proveedor": "nan",
+    "precio": 10000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_410_20260720_101703_0.webp"
+    ]
+  },
+  {
+    "codigo": "E7627362007190",
+    "nombre": "CUBETERA CAJA CON PRENSA, TAPA Y PALITA",
+    "proveedor": "nan",
+    "precio": 16300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7798085623100",
+    "nombre": "CUBETERA CORAZÓN/FLOR",
+    "proveedor": "nan",
+    "precio": 3400.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E2000200336860",
+    "nombre": "CUBETERA DE PLASTICO Y SILICONA",
+    "proveedor": "nan",
+    "precio": 4000.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "18",
+    "nombre": "CUBETERA FORMA BARRITAS",
+    "proveedor": "",
+    "precio": 3200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "19",
+    "nombre": "CUBETERA MAS CONTENEDOR",
+    "proveedor": "",
+    "precio": 6200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7798423541141",
+    "nombre": "CUBETERA SILICONA 6 CUBOS",
+    "proveedor": "nan",
+    "precio": 8700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6941301160182",
+    "nombre": "CUBETERA SILICONA BESOS",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6955202512919",
+    "nombre": "CUBETERA SILICONA CON TAPA",
+    "proveedor": "nan",
+    "precio": 3300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E2000200404316",
+    "nombre": "CUBETERA SILICONA REDONDA",
+    "proveedor": "nan",
+    "precio": 9300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6907662630153",
+    "nombre": "CUBETERA VASO",
+    "proveedor": "nan",
+    "precio": 9500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_413_20260720_101648_0.webp"
+    ]
+  },
+  {
+    "codigo": "E2009650797696",
+    "nombre": "CUBIERTOS ENCASTRABLES X 4 EN CAJA",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 10,
+    "descripcion": "",
+    "fotos": [
+      "prod_414_20260724_180812_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E8855159410109",
+    "nombre": "CUBIERTOS ENCASTRABLES x3",
+    "proveedor": "nan",
+    "precio": 3800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7450077050003",
+    "nombre": "CUBO MÁGICO",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e7790780085696",
+    "nombre": "CUBRE ALIMENTOS PVC",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 1800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4404_20260716_181802_0.webp"
+    ]
+  },
+  {
+    "codigo": "G13532505534",
+    "nombre": "CUBRE CALZADO",
+    "proveedor": "nan",
+    "precio": 5000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_417_20260720_101535_0.webp"
+    ]
+  },
+  {
+    "codigo": "7498163515760",
+    "nombre": "CUCHARAS GOLD HOJITAS 12CM(12CM)",
+    "proveedor": "nan",
+    "precio": 6300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_418_20260720_101505_0.webp"
+    ]
+  },
+  {
+    "codigo": "E7792281000819",
+    "nombre": "CUCHARAS X 3 PIEZAS CAROL",
+    "proveedor": "nan",
+    "precio": 5600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "4894653207345",
+    "nombre": "CUCHARITAS X 12 CORAZÓN",
+    "proveedor": "nan",
+    "precio": 8000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_420_20260724_181828_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E7790780074928",
+    "nombre": "CUCHARÓN COLADOR",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "25",
+    "nombre": "CUCHILLO CON FUNDA GRANDE",
+    "proveedor": "",
+    "precio": 3200.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e7790000197512",
+    "nombre": "CUCHILLO PARA VEGETALES EN BLISTER",
+    "proveedor": "nan",
+    "precio": 6300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_422_20260724_173742_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "C1",
+    "nombre": "CUCHILLO Y TENEDOR ASADO CON FUNDA",
+    "proveedor": "",
+    "precio": 14000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3646_20260724_172622_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E7792281000789",
+    "nombre": "CUCHILLOS X 3 PIEZAS CAROL",
+    "proveedor": "nan",
+    "precio": 5600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7450077122410",
+    "nombre": "CÁMARA INFANTIL CON SONIDO",
+    "proveedor": "nan",
+    "precio": 7700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "2400000052142",
+    "nombre": "CÁMARA INFANTIL IMPRESORA",
+    "proveedor": "nan",
+    "precio": 48000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6902024110410",
+    "nombre": "CÁMARA INFANTIL NO IMPRIME",
+    "proveedor": "nan",
+    "precio": 20000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E2400000472018",
+    "nombre": "DEPILADOR FACIAL BLAWLESS",
+    "proveedor": "nan",
+    "precio": 12000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "126",
+    "nombre": "DESPOLVILLADOR +SET DUO MINI+MATE C/BOMBILLA",
+    "proveedor": "",
+    "precio": 10000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "127",
+    "nombre": "DESPOLVILLADOR COLORES",
+    "proveedor": "",
+    "precio": 3200.0,
+    "stock": 5,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6958695425308",
+    "nombre": "DESTAPADOR DE VINOS",
+    "proveedor": "nan",
+    "precio": 6000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6900003894160",
+    "nombre": "DESTAPADOR OJO TURCO",
+    "proveedor": "nan",
+    "precio": 5500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_436_20260724_181733_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6985885678909",
+    "nombre": "DIAMOND PAINTING (14x18CM) CAPIBARA- KITTY",
+    "proveedor": "nan",
+    "precio": 3350.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6996598656856",
+    "nombre": "DIAMOND PAINTING (20X 30)",
+    "proveedor": "nan",
+    "precio": 10000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "PRO5",
+    "nombre": "DISPENCER PLASTICO",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 1800.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_4395_20260716_181434_0.webp"
+    ]
+  },
+  {
+    "codigo": "E7912103308187",
+    "nombre": "DISPENSER DETERGENTE CON ESPONJA",
+    "proveedor": "nan",
+    "precio": 6000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7795782500840",
+    "nombre": "DISPENSER DETERGENTE CON SOPORTE ESPONJA",
+    "proveedor": "nan",
+    "precio": 6400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C48",
+    "nombre": "DOMINO TORNADO SET 2 EN 1",
+    "proveedor": "TECNO IMPORTACIONES",
+    "precio": 18500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3702_20260717_102855_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6971045313995",
+    "nombre": "DRONE",
+    "proveedor": "nan",
+    "precio": 45000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_441_20260718_185557_0.jpg"
+    ]
+  },
+  {
+    "codigo": "C22",
+    "nombre": "ENCENDEDOR CATALÍTICO ARGENTINA",
+    "proveedor": "ARTE Y ESCENCIA",
+    "precio": 1000.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6789010250714",
+    "nombre": "ENCENDEDOR PARA VELAS",
+    "proveedor": "nan",
+    "precio": 6400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "2400000052463",
+    "nombre": "ENCENDEDOR USB CON LINTERNA",
+    "proveedor": "nan",
+    "precio": 4000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_443_20260724_190920_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "C2",
+    "nombre": "ENCENDEDOR/CHISPERO USB",
+    "proveedor": "",
+    "precio": 6000.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": [
+      "prod_3647_20260718_191422_0.jpg"
+    ]
+  },
+  {
+    "codigo": "99",
+    "nombre": "ENGANCHE QUENCHER",
+    "proveedor": "",
+    "precio": 3700.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "192",
+    "nombre": "ESCARAPELAS",
+    "proveedor": "",
+    "precio": 500.0,
+    "stock": 36,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6945862456357",
+    "nombre": "ESCARBADIENTES",
+    "proveedor": "MERCURIO TECH",
+    "precio": 1100.0,
+    "stock": 12,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C39",
+    "nombre": "ESCARBADIENTES HUEVITO",
+    "proveedor": "ARTE Y ESCENCIAS",
+    "precio": 1400.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "p10",
+    "nombre": "ESCURRIDOR CUBIERTOS",
+    "proveedor": "nan",
+    "precio": 8000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_445_20260718_182729_0.jpg"
+    ]
+  },
+  {
+    "codigo": "E7795357009273",
+    "nombre": "ESCURRIDOR PARA BACHA",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "74",
+    "nombre": "ESCURRIDOR PLEGABLE",
+    "proveedor": "",
+    "precio": 20000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7790000158827",
+    "nombre": "ESPATULA SILICONA CON MANGO MADERA",
+    "proveedor": "nan",
+    "precio": 2200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e7798306560412",
+    "nombre": "ESPECIERO 4 PIEZAS  C/BASE",
+    "proveedor": "",
+    "precio": 10000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3709_20260716_110128_0.png",
+      "prod_3709_20260716_110128_1.png"
+    ]
+  },
+  {
+    "codigo": "26",
+    "nombre": "ESPECIERO ACRÍLICO TAPA COLORES CON SOPORTE",
+    "proveedor": "",
+    "precio": 15500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "27",
+    "nombre": "ESPECIERO APILABLE",
+    "proveedor": "",
+    "precio": 10000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3111_20260716_105740_0.png"
+    ]
+  },
+  {
+    "codigo": "C34",
+    "nombre": "ESPECIERO IMANTADO INDIVIDUAL",
+    "proveedor": "MERCURIO TECH",
+    "precio": 5900.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3689_20260716_102032_0.png"
+    ]
+  },
+  {
+    "codigo": "E7790780094520",
+    "nombre": "ESPECIERO INDIVIDUAL VIDRIO",
+    "proveedor": "nan",
+    "precio": 4500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "798918067252",
+    "nombre": "ESPECIERO PATITO",
+    "proveedor": "nan",
+    "precio": 3600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_449_20260724_163428_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "2000200508625",
+    "nombre": "ESPEJO CON AUMENTO 3X",
+    "proveedor": "nan",
+    "precio": 3500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "193",
+    "nombre": "ESPEJO CON CEPILLO PARA CARTERA",
+    "proveedor": "",
+    "precio": 1500.0,
+    "stock": 8,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "152",
+    "nombre": "ESPEJO CON LUZ LED RECARGABLE USB  (DOBLE)",
+    "proveedor": "",
+    "precio": 16600.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3330_20260718_190719_0.jpg"
+    ]
+  },
+  {
+    "codigo": "6952025002023",
+    "nombre": "ESPEJO CON LUZ LED RECARGABLE USB (ROSADO)",
+    "proveedor": "nan",
+    "precio": 16600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "153",
+    "nombre": "ESPEJO DOBLE CON AUMENTO Y BASE MATAL",
+    "proveedor": "",
+    "precio": 4200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "154",
+    "nombre": "ESPEJO LED PORTÁTIL PARA AUTO USB",
+    "proveedor": "",
+    "precio": 20000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "155",
+    "nombre": "ESPEJO LED RECARGABLE PARA CARTERA",
+    "proveedor": "",
+    "precio": 8000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C50",
+    "nombre": "ESPEJO MAQUILLAJE PORTÁTIL  TAPA  C/LUZ",
+    "proveedor": "TECNO IMPORTACIONES",
+    "precio": 16000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3704_20260716_104732_0.png"
+    ]
+  },
+  {
+    "codigo": "E6997963613436",
+    "nombre": "ESPONJA SILICONA PARA CARGAR DETERGENTE",
+    "proveedor": "nan",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7450077141718",
+    "nombre": "ESTACIONAMIENTO AUTOS",
+    "proveedor": "nan",
+    "precio": 12300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_453_20260717_101809_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E7912103309139",
+    "nombre": "ESTANTE ORGANIZADOR METÁLICO PARA CUBIERTOS 30 CM",
+    "proveedor": "nan",
+    "precio": 15000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7793256523265",
+    "nombre": "ETIQUETAS ADHESIVAS",
+    "proveedor": "nan",
+    "precio": 1600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_455_20260724_175055_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E6928948490056",
+    "nombre": "EXPRIMIDOR CON CONTENEDOR (ROSA)",
+    "proveedor": "nan",
+    "precio": 3800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "2400000056416",
+    "nombre": "EXPRIMIDOR MANUAL PLEGABLE",
+    "proveedor": "nan",
+    "precio": 11000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7795513075104",
+    "nombre": "FIBRAS FILGO PINTO X 10",
+    "proveedor": "nan",
+    "precio": 2200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_458_20260724_175519_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6972564945865",
+    "nombre": "FIBRAS LARGAS X 6 EN ESTUCHE",
+    "proveedor": "nan",
+    "precio": 1200.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": [
+      "prod_459_20260724_175925_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "e6952025004065",
+    "nombre": "FOCOS LED PARA ESPEJO X 10",
+    "proveedor": "nan",
+    "precio": 14800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_461_20260718_185846_0.jpg"
+    ]
+  },
+  {
+    "codigo": "28",
+    "nombre": "FRASCO HERMÉTICO ACRÍLICO",
+    "proveedor": "",
+    "precio": 13000.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C19",
+    "nombre": "FRASCO VIDRIO TAPA PLÁSTICA",
+    "proveedor": "ARTE Y ESCENCIA",
+    "precio": 7400.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "194",
+    "nombre": "GAS PIMIENTA (TIPO PERFUMERO)",
+    "proveedor": "",
+    "precio": 3500.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "252",
+    "nombre": "GOMA JIRAFA",
+    "proveedor": "",
+    "precio": 1000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6949832880999",
+    "nombre": "GOMA SWEET DREAMS X 2",
+    "proveedor": "nan",
+    "precio": 1500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_463_20260720_111139_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "195",
+    "nombre": "GOMITAS (MOÑO/FLOR X 5)",
+    "proveedor": "",
+    "precio": 2000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "29",
+    "nombre": "GUARDATUTTI",
+    "proveedor": "",
+    "precio": 1700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "2509202525062",
+    "nombre": "HELICOPTERO SOLAR PERFUME AUTO",
+    "proveedor": "nan",
+    "precio": 16000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6926468425893",
+    "nombre": "HOJAS PARA DIBUJO MAGICO 20X8CM CAPIBARA",
+    "proveedor": "nan",
+    "precio": 1200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C46",
+    "nombre": "HUB USB CON CABLE INTEGRADO",
+    "proveedor": "TECNO IMPORTACIONES",
+    "precio": 10000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "231",
+    "nombre": "HUESO GUARDA BOLSAS PERROS",
+    "proveedor": "",
+    "precio": 2000.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": [
+      "prod_3475_20260718_191301_0.jpg"
+    ]
+  },
+  {
+    "codigo": "7450077071558",
+    "nombre": "HUEVOS DINOSAURIO",
+    "proveedor": "nan",
+    "precio": 8500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_467_20260720_105014_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "157",
+    "nombre": "HUMIDIFICADOR 3 EN 1 HUEVITO",
+    "proveedor": "",
+    "precio": 9500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6952025007479",
+    "nombre": "HUMIDIFICADOR AROMA USB (ROSA)",
+    "proveedor": "nan",
+    "precio": 12000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "156",
+    "nombre": "HUMIDIFICADOR CRISTAL 1 LITRO CON LUZ",
+    "proveedor": "",
+    "precio": 24000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C31",
+    "nombre": "HUMIDIFICADOR GTC",
+    "proveedor": "MERCURIO TECH",
+    "precio": 7700.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3687_20260716_102936_0.png"
+    ]
+  },
+  {
+    "codigo": "7171210029358",
+    "nombre": "HUMIDIFICADOR H2O",
+    "proveedor": "nan",
+    "precio": 10000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "2400000000464",
+    "nombre": "HUMIDIFICADOR PROYECTOR",
+    "proveedor": "nan",
+    "precio": 14000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "PROAAAA",
+    "nombre": "HUMIDIFICADOR REDONDO 200 ML",
+    "proveedor": "",
+    "precio": 10000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4420_20260718_192812_0.jpg"
+    ]
+  },
+  {
+    "codigo": "30",
+    "nombre": "INDIVIDUAL REDONDO",
+    "proveedor": "",
+    "precio": 5500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7790780116185",
+    "nombre": "INFUSOR DE TE SILICONA CON FORMA SAQUITO DE TE",
+    "proveedor": "nan",
+    "precio": 5500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_471_20260724_181419_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E2000200227731",
+    "nombre": "INFUSOR DE TE TIJERA",
+    "proveedor": "nan",
+    "precio": 4400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_472_20260724_181406_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E7499202503205",
+    "nombre": "INFUSOR DE TÉ BOLITA METALICO 4.5CM (IFR8)",
+    "proveedor": "nan",
+    "precio": 3200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_473_20260724_181348_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "PRO1",
+    "nombre": "INFUSOR FLOR",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 1800.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_4379_20260716_181850_0.webp"
+    ]
+  },
+  {
+    "codigo": "6988305810149",
+    "nombre": "JABON EN PETALO KITTY Y SUS AMIGOS .",
+    "proveedor": "",
+    "precio": 2500.0,
+    "stock": 8,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "196",
+    "nombre": "JABONERA BAÑERITA CERAMICA 20CM",
+    "proveedor": "",
+    "precio": 10400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E2000200472124",
+    "nombre": "JARRA NÓRDICA",
+    "proveedor": "nan",
+    "precio": 29200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_475_20260720_124458_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E6974043020421",
+    "nombre": "JARRA VIDRIO CON 4 VASOS",
+    "proveedor": "nan",
+    "precio": 37600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6973042581902",
+    "nombre": "JARRA/TETERA + 4 TAZAS C/RELIEVE. DE VIDRIO, COLOR MIEL",
+    "proveedor": "nan",
+    "precio": 20000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_477_20260720_112655_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "100",
+    "nombre": "JARRO TÉRMICO CON ASAS",
+    "proveedor": "",
+    "precio": 10000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6923589601236",
+    "nombre": "JUEGO AGUA LABUBU",
+    "proveedor": "nan",
+    "precio": 3300.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_478_20260720_104709_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "2412691500000",
+    "nombre": "JUEGO BASQUET DE MESA",
+    "proveedor": "nan",
+    "precio": 18000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6925030201231",
+    "nombre": "JUEGO BASTA 2.0",
+    "proveedor": "nan",
+    "precio": 17000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_480_20260717_102913_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "7797819283658",
+    "nombre": "JUEGO CARTAS UNO (Capibara/Labubu/Stitch)",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6975125423192",
+    "nombre": "JUEGO CUBIERTOS",
+    "proveedor": "nan",
+    "precio": 18000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "PRO10",
+    "nombre": "JUEGO DE CUBIERTOS  25 PIEZAS",
+    "proveedor": "",
+    "precio": 17000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4419_20260718_192459_0.jpg"
+    ]
+  },
+  {
+    "codigo": "C20",
+    "nombre": "JUEGO DE LOS DOBLES (CARTAS)",
+    "proveedor": "ARTE Y ESCENCIA",
+    "precio": 5300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7784032402485",
+    "nombre": "JUEGO DE MESA \"METEGOL\"",
+    "proveedor": "nan",
+    "precio": 27800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_483_20260717_102630_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "7784032402461",
+    "nombre": "JUEGO DE MESA AJEDREZ DE GEOMETRÍA",
+    "proveedor": "nan",
+    "precio": 11200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6900717150156",
+    "nombre": "JUEGO DE MESA BOLOS",
+    "proveedor": "nan",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "238",
+    "nombre": "JUEGO LABUBU JARDIN",
+    "proveedor": "",
+    "precio": 4000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7450077070308",
+    "nombre": "JUEGO LANZA DARDOS",
+    "proveedor": "nan",
+    "precio": 5200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7450077128573",
+    "nombre": "JUEGO MASAS PLASTI",
+    "proveedor": "nan",
+    "precio": 6400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_487_20260717_114154_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "7450077141961",
+    "nombre": "JUEGO MEMORIA OVALO",
+    "proveedor": "nan",
+    "precio": 18000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_488_20260717_102313_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6985564688595",
+    "nombre": "JUEGO MEMORIA RHYTHM",
+    "proveedor": "nan",
+    "precio": 13000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_489_20260717_102232_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "B714604244110",
+    "nombre": "JUEGO PARA BAÑO",
+    "proveedor": "nan",
+    "precio": 20000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "5022840648520",
+    "nombre": "JUEGO RANITAS",
+    "proveedor": "nan",
+    "precio": 11000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_491_20260717_101659_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "239",
+    "nombre": "JUEGO TRENZAS",
+    "proveedor": "",
+    "precio": 9600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C45",
+    "nombre": "JUEGO YENGA COLORES CON DADO",
+    "proveedor": "TECNO IMPORTACIONES",
+    "precio": 13500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3699_20260716_103804_0.png"
+    ]
+  },
+  {
+    "codigo": "232",
+    "nombre": "JUGUETE PARA GATOS",
+    "proveedor": "",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "1986036156227",
+    "nombre": "KIT DE COSTURA",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6951500084523",
+    "nombre": "KIT PEDICURA",
+    "proveedor": "nan",
+    "precio": 2500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "D77974785",
+    "nombre": "LA TAPITA",
+    "proveedor": "nan",
+    "precio": 1000.0,
+    "stock": 5,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "06",
+    "nombre": "LABIAL FRUTILLA",
+    "proveedor": "nan",
+    "precio": 2800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_679_20260716_110234_0.png"
+    ]
+  },
+  {
+    "codigo": "162",
+    "nombre": "LAMPARA AURORA BOREAL",
+    "proveedor": "REYES DEL OESTE",
+    "precio": 17000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3352_20260718_190910_0.jpg"
+    ]
+  },
+  {
+    "codigo": "158",
+    "nombre": "LAMPARA CRISTAL TOUCH",
+    "proveedor": "",
+    "precio": 25000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "159",
+    "nombre": "LAMPARA DE NOCHE ESTRELLA",
+    "proveedor": "",
+    "precio": 16000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "167",
+    "nombre": "LAMPARA PAPEL CHICA",
+    "proveedor": "",
+    "precio": 4000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "166",
+    "nombre": "LAMPARA PAPEL GRANDE",
+    "proveedor": "",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6888292623121",
+    "nombre": "LAMPARA PROYECTOR ESTRELLAS A PILA",
+    "proveedor": "nan",
+    "precio": 6500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_494_20260718_192408_0.jpg"
+    ]
+  },
+  {
+    "codigo": "LAN10",
+    "nombre": "LANZA AGUA",
+    "proveedor": "",
+    "precio": 4500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4422_20260721_180717_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6955668882069",
+    "nombre": "LAPICERA ASTRONAUTA/UNICORNIO 10 COLORES",
+    "proveedor": "nan",
+    "precio": 2200.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "253",
+    "nombre": "LAPICERA CHICA 4 COLORES",
+    "proveedor": "",
+    "precio": 1800.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "255",
+    "nombre": "LAPICERA CON ADORNO GOMA",
+    "proveedor": "",
+    "precio": 2500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "254",
+    "nombre": "LAPICERA FLOR/ MOÑO/CORONA",
+    "proveedor": "",
+    "precio": 2300.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6930140200067",
+    "nombre": "LAPICERA GEL COLORES EN ESTUCHE X 6",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_496_20260724_175601_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "7798434161031",
+    "nombre": "LAPICERA STICK COLOR PASTEL X 5",
+    "proveedor": "nan",
+    "precio": 4900.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7795513044780",
+    "nombre": "LAPICERAS FILGO AZUL",
+    "proveedor": "nan",
+    "precio": 1000.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7795513076286",
+    "nombre": "LAPICERAS X 10 FIGO GEL POP",
+    "proveedor": "nan",
+    "precio": 11800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "8809314946040",
+    "nombre": "LAPICES CORTOS EN TUBO CON TAPA SACAPUNTAS x 12",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_499_20260724_175831_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "L99",
+    "nombre": "LAPIZ  LILO  STICH",
+    "proveedor": "nan",
+    "precio": 3200.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7795513177495",
+    "nombre": "LAPIZ GRAFITO COLORES PASTEL PINTO",
+    "proveedor": "nan",
+    "precio": 2700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_501_20260724_175706_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "7499050322799",
+    "nombre": "LAPIZ INTERCAMBIABLE MINA COLORES",
+    "proveedor": "nan",
+    "precio": 500.0,
+    "stock": 9,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "257",
+    "nombre": "LAPIZ INTERCAMBIABLE MINA PERSONAJES/ COLORES",
+    "proveedor": "",
+    "precio": 1100.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6976693302926",
+    "nombre": "LAPIZ LARGO DE COLORES X 12",
+    "proveedor": "nan",
+    "precio": 3400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_503_20260722_184947_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6976693306535",
+    "nombre": "LAPIZ LARGO DE COLORES X 12 DOBLES",
+    "proveedor": "nan",
+    "precio": 4000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_504_20260722_185002_0.jpeg",
+      "prod_504_20260722_185002_1.jpeg"
+    ]
+  },
+  {
+    "codigo": "3898876531028",
+    "nombre": "LIBRO PARA PINTAR (Korumi\\Labubu)",
+    "proveedor": "nan",
+    "precio": 3300.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7791130938280",
+    "nombre": "LIBRO PARA PINTAR PEPPA-PRINCESA SOFÍA",
+    "proveedor": "nan",
+    "precio": 1800.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "197",
+    "nombre": "LIMAS GRANDES X 2",
+    "proveedor": "",
+    "precio": 1500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "31",
+    "nombre": "LIMPIA VENTANAS",
+    "proveedor": "",
+    "precio": 3650.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6973100279765",
+    "nombre": "LIP GLOSS",
+    "proveedor": "nan",
+    "precio": 4200.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7178873127742",
+    "nombre": "LISTÓN LÁMPARA RECARGABLE 35 CM",
+    "proveedor": "nan",
+    "precio": 6500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6952026006792",
+    "nombre": "LISTÓN LÁMPARA RECARGABLE 605 CM",
+    "proveedor": "nan",
+    "precio": 8000.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "198",
+    "nombre": "LLAVERO TORRE/ARDILLA",
+    "proveedor": "",
+    "precio": 1300.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7790780128492",
+    "nombre": "LONCHERA CON TENEDOR Y SALSERO",
+    "proveedor": "nan",
+    "precio": 6400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "32",
+    "nombre": "LONCHERA KIT CAPIBARA",
+    "proveedor": "",
+    "precio": 7000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "34",
+    "nombre": "LONCHERA PERRITO",
+    "proveedor": "",
+    "precio": 12000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E2000200412212",
+    "nombre": "LONCHERA PLÁSTICA C/CUBIERTOS",
+    "proveedor": "nan",
+    "precio": 7800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6925874864296",
+    "nombre": "LONCHERA RECTANGULAR/CIRCULAR DOBLE",
+    "proveedor": "nan",
+    "precio": 9600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6820200311065",
+    "nombre": "LONCHERA TELA CUADROS",
+    "proveedor": "nan",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "33",
+    "nombre": "LONCHERA TELA DISEÑO CAPIBARA",
+    "proveedor": "",
+    "precio": 5400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6970369985581",
+    "nombre": "LONCHERA TÉRMICA CAPIBARA",
+    "proveedor": "nan",
+    "precio": 9900.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "256",
+    "nombre": "LPIZ INFINITO",
+    "proveedor": "",
+    "precio": 2700.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e7178873127742",
+    "nombre": "LUZ EMERGECIA 30 IMAN",
+    "proveedor": "",
+    "precio": 6500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4377_20260716_111908_0.jpg"
+    ]
+  },
+  {
+    "codigo": "e6952026006792",
+    "nombre": "LUZ EMERGECIA 60 IMAN",
+    "proveedor": "",
+    "precio": 8000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_4378_20260716_111930_0.jpg"
+    ]
+  },
+  {
+    "codigo": "6973023780256",
+    "nombre": "LUZ EMERGENCIA 30 LED",
+    "proveedor": "nan",
+    "precio": 8500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_512_20260724_190832_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "2400000052456",
+    "nombre": "LUZ EMERGENCIA RECARGABLE, SOLAR",
+    "proveedor": "nan",
+    "precio": 6400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_513_20260724_190949_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "164",
+    "nombre": "LUZ LED CON BROCHE CHICA",
+    "proveedor": "",
+    "precio": 3200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "dl2205",
+    "nombre": "LUZ LED CON SENSOR BAJO MESADA 50 CM",
+    "proveedor": "nan",
+    "precio": 10000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7798398060005",
+    "nombre": "LUZ PARA MATE",
+    "proveedor": "nan",
+    "precio": 4000.0,
+    "stock": 7,
+    "descripcion": "",
+    "fotos": [
+      "prod_515_20260716_102133_0.png",
+      "prod_515_20260724_181555_1.jpeg",
+      "prod_515_20260724_181648_2.jpeg"
+    ]
+  },
+  {
+    "codigo": "165",
+    "nombre": "LUZ RECARGABLE PARA BICICLETA",
+    "proveedor": "",
+    "precio": 4000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3359_20260724_190142_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6902579835271",
+    "nombre": "LÁMPARA SUNSET",
+    "proveedor": "nan",
+    "precio": 17000.0,
+    "stock": 5,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e2025103143322",
+    "nombre": "LÁPIZ 3D",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 19800.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_523_20260716_180703_1.webp"
+    ]
+  },
+  {
+    "codigo": "6920250240978",
+    "nombre": "MAGIC PUZZLE KUROMI",
+    "proveedor": "nan",
+    "precio": 4000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7498167881236",
+    "nombre": "MANGAS DESCARTABLES",
+    "proveedor": "nan",
+    "precio": 3200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_525_20260724_173652_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "199",
+    "nombre": "MANTA CAPIBARA",
+    "proveedor": "",
+    "precio": 14000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7798445660578",
+    "nombre": "MANTECA CACAO LOVECRAZY",
+    "proveedor": "nan",
+    "precio": 2000.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7798145321885",
+    "nombre": "MANTECA CACAO LUYAGUS COMUN",
+    "proveedor": "nan",
+    "precio": 1500.0,
+    "stock": 10,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "227",
+    "nombre": "MANTECA CACAO LUYAGUS CON SABOR",
+    "proveedor": "",
+    "precio": 2000.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "35",
+    "nombre": "MANTEQUERA PLÁSTICA",
+    "proveedor": "",
+    "precio": 1500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6949341600965",
+    "nombre": "MARCADOR DOBLE PUNTA DUAL TIP",
+    "proveedor": "nan",
+    "precio": 14800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_551_20260724_164448_1.jpeg"
+    ]
+  },
+  {
+    "codigo": "2000200425656",
+    "nombre": "MARCADORES CON SELLITO RODILLO x 6",
+    "proveedor": "nan",
+    "precio": 3300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6971142953025",
+    "nombre": "MARCADORES DOBLE PUNTA  12u ESTUCHE PLÁSTICO chico",
+    "proveedor": "nan",
+    "precio": 7300.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_529_20260724_164904_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6973645390185",
+    "nombre": "MARCADORES DOBLE PUNTA  12u ESTUCHE PLÁSTICO grande",
+    "proveedor": "nan",
+    "precio": 8300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_530_20260724_164843_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6993625372482",
+    "nombre": "MARCADORES DOBLE PUNTA  48 u",
+    "proveedor": "nan",
+    "precio": 20300.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_531_20260724_165022_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "258",
+    "nombre": "MARCADORES DOBLE PUNTA EN BOLSA X 36",
+    "proveedor": "",
+    "precio": 15000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3605_20260724_164635_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "260",
+    "nombre": "MARCADORES DOBLE PUNTA X  x 60 u",
+    "proveedor": "",
+    "precio": 27700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3607_20260724_165049_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "259",
+    "nombre": "MARCADORES DOBLE PUNTA X 24",
+    "proveedor": "",
+    "precio": 11000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3606_20260718_191346_0.jpg"
+    ]
+  },
+  {
+    "codigo": "69140800001241",
+    "nombre": "MARCADORES DOUBLE HEAR",
+    "proveedor": "nan",
+    "precio": 13800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_532_20260724_164555_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "261",
+    "nombre": "MARCADORES GLITTER X 24",
+    "proveedor": "",
+    "precio": 10000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3609_20260724_164308_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6971597117089",
+    "nombre": "MARCADORES HELADO X 6",
+    "proveedor": "nan",
+    "precio": 6100.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_533_20260724_174909_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6976441254538",
+    "nombre": "MARCADORES PIZARRON CON BORRADOR",
+    "proveedor": "nan",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6977056390048",
+    "nombre": "MARCADORES RESALTADORES COLOR FLUO X 4",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_552_20260724_175320_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6977056390024",
+    "nombre": "MARCADORES RESALTADORES COLOR PASTEL X 4",
+    "proveedor": "nan",
+    "precio": 3200.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_553_20260724_175328_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "4790010171598",
+    "nombre": "MARCADORES SWEET CANDY X 3",
+    "proveedor": "nan",
+    "precio": 3500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_535_20260724_174826_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6932775216710",
+    "nombre": "MARCADORES X 12 (ASTRONAUTA)",
+    "proveedor": "nan",
+    "precio": 5400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7793435154419",
+    "nombre": "MARCADORES x12 COLOR PASTEL CON AROMA COLORIST",
+    "proveedor": "nan",
+    "precio": 2800.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6821666526734",
+    "nombre": "MASAJEADOR FACIAL SILICONA (CONNERT)",
+    "proveedor": "nan",
+    "precio": 2000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "05",
+    "nombre": "MASCARA DE PESTAÑAS",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "128",
+    "nombre": "MATE CON BOMBILLA Y TAPA SOPORTE",
+    "proveedor": "",
+    "precio": 10000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6952025010165",
+    "nombre": "MATE CON TAPA",
+    "proveedor": "nan",
+    "precio": 10000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "129",
+    "nombre": "MATE LISTO PLÁSTICO FLORES",
+    "proveedor": "",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3287_20260720_103545_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E6933724730486",
+    "nombre": "MATE LISTO SIMIL STANLEY NEGRO",
+    "proveedor": "nan",
+    "precio": 22000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_539_20260720_103526_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "130",
+    "nombre": "MATE TÉRMICO",
+    "proveedor": "",
+    "precio": 12700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7795513045169",
+    "nombre": "MICROFIBRA X 10 LINER",
+    "proveedor": "nan",
+    "precio": 9800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_540_20260722_185019_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "262",
+    "nombre": "MINI ABROCHADORA CON BROCHE KATANA",
+    "proveedor": "",
+    "precio": 3200.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3616_20260724_175724_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6974687550155",
+    "nombre": "MINI ABROCHADORA CON BROCHES DINO",
+    "proveedor": "nan",
+    "precio": 2700.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": [
+      "prod_541_20260722_184254_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "C42",
+    "nombre": "MINI ASPIRADORA INALÁMBRICA",
+    "proveedor": "TECNO IMPORTACIONES",
+    "precio": 10000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3696_20260716_103735_0.png"
+    ]
+  },
+  {
+    "codigo": "200",
+    "nombre": "MINI BROCHES MARRONES EN BOLSITA",
+    "proveedor": "",
+    "precio": 1000.0,
+    "stock": 6,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "160",
+    "nombre": "MINI LED USB",
+    "proveedor": "",
+    "precio": 1800.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3348_20260724_190803_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6915441150969",
+    "nombre": "MINI LIMAS X 8 UNIDADES",
+    "proveedor": "nan",
+    "precio": 1900.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "4894653302729",
+    "nombre": "MINI LINTERNA SUPER BRIGHT LED",
+    "proveedor": "nan",
+    "precio": 4500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "201",
+    "nombre": "MINI MACETAS PLÁSTICAS",
+    "proveedor": "",
+    "precio": 1270.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "8432654588337",
+    "nombre": "MINI PINTURAS (TINI- KUROMI- PONY- FROZEN)",
+    "proveedor": "nan",
+    "precio": 2800.0,
+    "stock": 5,
+    "descripcion": "",
+    "fotos": [
+      "prod_544_20260717_114704_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "C30",
+    "nombre": "MINI TOALLITAS HÚMEDAS STITCH",
+    "proveedor": "ARTE Y ESCENCIA",
+    "precio": 1300.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "8618685689926",
+    "nombre": "MNGUERA LED 5 METROS",
+    "proveedor": "nan",
+    "precio": 15000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7171210039258",
+    "nombre": "MOCHILA BANDOLERA ANTIRROBO",
+    "proveedor": "nan",
+    "precio": 15000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_555_20260716_104005_0.png",
+      "prod_555_20260718_185919_1.jpg"
+    ]
+  },
+  {
+    "codigo": "4790010224430",
+    "nombre": "MOCHILA BOCA DE PEZ EVERLAND",
+    "proveedor": "nan",
+    "precio": 22000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "263",
+    "nombre": "MOCHILA CHICAS SUPERPODEROSAS",
+    "proveedor": "",
+    "precio": 6600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "264",
+    "nombre": "MOCHILA CRUZADA DINO",
+    "proveedor": "",
+    "precio": 4700.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "265",
+    "nombre": "MOCHILA INFANTIL x 3 PIEZAS CON CARRITO",
+    "proveedor": "",
+    "precio": 50000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "266",
+    "nombre": "MOCHILA JUVENIL 3 CIERRES",
+    "proveedor": "",
+    "precio": 19400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "267",
+    "nombre": "MOCHILA JUVENIL 4 CIERRES",
+    "proveedor": "",
+    "precio": 20500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "248",
+    "nombre": "MOCHILA MINI ( DINO/SUPERPODEROSAS)",
+    "proveedor": "",
+    "precio": 4300.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "4790010217340",
+    "nombre": "MOCHILA RUNNING EVERLAND",
+    "proveedor": "nan",
+    "precio": 23000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "4790020225090",
+    "nombre": "MOCHILA TRENDY AZUL COMBINADA/ FUCSIA",
+    "proveedor": "nan",
+    "precio": 25000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "240",
+    "nombre": "MOCHIS",
+    "proveedor": "",
+    "precio": 1200.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "37",
+    "nombre": "MOLDE HELADOS",
+    "proveedor": "",
+    "precio": 4750.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e7790000123603",
+    "nombre": "MOLDE PARA HUEVOS FRITOS",
+    "proveedor": "nan",
+    "precio": 1950.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_556_20260724_173419_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "e2025070138062",
+    "nombre": "MOLDE PARA MUFFIN 15.5 CM",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 5400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4381_20260716_180257_0.webp"
+    ]
+  },
+  {
+    "codigo": "38",
+    "nombre": "MOLDE PARA TORTA CORAZÓN",
+    "proveedor": "",
+    "precio": 13200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "36",
+    "nombre": "MOLDE/BANDEJA SILICONA PARA FREIDORA REUTILIZABLE",
+    "proveedor": "",
+    "precio": 3500.0,
+    "stock": 11,
+    "descripcion": "",
+    "fotos": [
+      "prod_3140_20260718_190442_0.jpg"
+    ]
+  },
+  {
+    "codigo": "7790780123794",
+    "nombre": "MOLDES PARA EMPANADAS  x2",
+    "proveedor": "nan",
+    "precio": 3300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_549_20260724_181226_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "40",
+    "nombre": "MONITO CORTA PIZZA",
+    "proveedor": "",
+    "precio": 1200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e6952025310661",
+    "nombre": "MUÑECA CON MOTO",
+    "proveedor": "REYES DEL OESTE",
+    "precio": 14000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4425_20260720_174940_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "202",
+    "nombre": "MUÑEQUERA DEPORTIVA",
+    "proveedor": "",
+    "precio": 4000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6929425113888",
+    "nombre": "MUÑEQUITO LEGO",
+    "proveedor": "nan",
+    "precio": 3200.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_550_20260716_101737_0.jpg",
+      "prod_550_20260716_101745_1.jpg",
+      "prod_550_20260716_101752_2.jpg"
+    ]
+  },
+  {
+    "codigo": "203",
+    "nombre": "NEBULIZADOR USB/PILAS",
+    "proveedor": "",
+    "precio": 26000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3423_20260718_191100_0.jpg"
+    ]
+  },
+  {
+    "codigo": "E3790001081722",
+    "nombre": "NECESER DE VIAJE COLGANTE DE LUXE",
+    "proveedor": "nan",
+    "precio": 15000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "204",
+    "nombre": "NECESER DE VIAJE COLGANTE ECONÓMICO",
+    "proveedor": "",
+    "precio": 7000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3425_20260718_191135_0.jpg"
+    ]
+  },
+  {
+    "codigo": "C5",
+    "nombre": "OLLA N° 22",
+    "proveedor": "",
+    "precio": 27000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C3",
+    "nombre": "OLLA N°18",
+    "proveedor": "",
+    "precio": 20000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C4",
+    "nombre": "OLLA N°20",
+    "proveedor": "",
+    "precio": 23000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7790780124555",
+    "nombre": "ORGANIZADOR DE BAÑO HAIR DRYER",
+    "proveedor": "nan",
+    "precio": 9700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "206",
+    "nombre": "ORGANIZADOR DUCHA PLÁSTICO PLEGABLE",
+    "proveedor": "",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "207",
+    "nombre": "ORGANIZADOR ESCRITORIO PERSONITA",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 4000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3429_20260716_180908_0.webp"
+    ]
+  },
+  {
+    "codigo": "73",
+    "nombre": "ORGANIZADOR UNIVERSAL BAMBU",
+    "proveedor": "",
+    "precio": 3800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "208",
+    "nombre": "PACK GOMITAS ROSA",
+    "proveedor": "",
+    "precio": 2000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "PRO12",
+    "nombre": "PALANTE  3  PULGADAS",
+    "proveedor": "REYES DEL OESTE",
+    "precio": 13000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4429_20260720_234356_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "e6952025001330",
+    "nombre": "PARAGUAS PLEGABLE",
+    "proveedor": "nan",
+    "precio": 6800.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "209",
+    "nombre": "PARASOL PARA AUTO",
+    "proveedor": "",
+    "precio": 10000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C21",
+    "nombre": "PARCHE CALENTADOR MANO CAPIBARA",
+    "proveedor": "ARTE Y ESCENCIA",
+    "precio": 10300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6915202503171",
+    "nombre": "PARCHES ACNÉ (ESTRELLAS/CIRCULOS)",
+    "proveedor": "nan",
+    "precio": 2000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "G20250702004",
+    "nombre": "PARCHES ACNÉ (OSITOS/CORAZÓN)",
+    "proveedor": "nan",
+    "precio": 2500.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6954845126491",
+    "nombre": "PARCHES REFRESCANTES PARA OJOS",
+    "proveedor": "",
+    "precio": 2160.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e6952026009564",
+    "nombre": "PARLANTE  TOCADISCO",
+    "proveedor": "REYES DEL OESTE",
+    "precio": 31000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4428_20260720_234124_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "PRO11",
+    "nombre": "PARLANTE AUTO",
+    "proveedor": "REYES DEL OESTE",
+    "precio": 37000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4426_20260724_165255_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6896121802067",
+    "nombre": "PARLANTE CAMIONETA",
+    "proveedor": "nan",
+    "precio": 35000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_563_20260720_101446_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6973281287597",
+    "nombre": "PARLANTE CON MICRÓFONO",
+    "proveedor": "nan",
+    "precio": 18000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_596_20260718_190158_0.jpg"
+    ]
+  },
+  {
+    "codigo": "6973281283070",
+    "nombre": "PARLANTE GOOGLE DIGITAL",
+    "proveedor": "nan",
+    "precio": 25000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_595_20260720_103629_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "143",
+    "nombre": "PARLANTE LÁMPARA TÁCTIL",
+    "proveedor": "",
+    "precio": 13000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3313_20260720_103607_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "144",
+    "nombre": "PARLANTE MINI TRIÁNGULO",
+    "proveedor": "",
+    "precio": 10000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3314_20260720_103641_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "132",
+    "nombre": "PAVA PARA AUTO",
+    "proveedor": "",
+    "precio": 25000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6999211115167",
+    "nombre": "PAÑO ABSORBENTE",
+    "proveedor": "nan",
+    "precio": 6000.0,
+    "stock": 6,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6971082815797",
+    "nombre": "PEGAMENTO EN BARRA",
+    "proveedor": "nan",
+    "precio": 1000.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C9",
+    "nombre": "PEINE CONEJITO",
+    "proveedor": "",
+    "precio": 2160.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6945610014617",
+    "nombre": "PEINE Y ESPEJO",
+    "proveedor": "",
+    "precio": 4500.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7795722052606",
+    "nombre": "PELAPAPAS METÁLICO JOVIFEL",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_566_20260724_173807_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "241",
+    "nombre": "PELOTA BOOMERANG FLY",
+    "proveedor": "",
+    "precio": 12790.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": [
+      "prod_3507_20260717_114446_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "4894653133279",
+    "nombre": "PELOTA INFLABLE",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C6",
+    "nombre": "PELOTA N°2",
+    "proveedor": "",
+    "precio": 4500.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": [
+      "prod_3657_20260718_191818_0.jpg"
+    ]
+  },
+  {
+    "codigo": "C12",
+    "nombre": "PERFILADOR CEJAS",
+    "proveedor": "",
+    "precio": 1530.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "210",
+    "nombre": "PERFILADORES X 2",
+    "proveedor": "",
+    "precio": 2500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "211",
+    "nombre": "PERFUMERO MINI RECARGABLE",
+    "proveedor": "",
+    "precio": 2000.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6922259241406",
+    "nombre": "PESCA MAGIC EN BLISTER",
+    "proveedor": "nan",
+    "precio": 8500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_568_20260717_102447_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E7798124351001",
+    "nombre": "PICA AJO",
+    "proveedor": "nan",
+    "precio": 3580.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_569_20260724_181708_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "7794675829182",
+    "nombre": "PICTIONARY",
+    "proveedor": "nan",
+    "precio": 2700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_570_20260720_104949_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "212",
+    "nombre": "PIEDRA DEPILADORA",
+    "proveedor": "",
+    "precio": 3000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6956046167556",
+    "nombre": "PIEDRA FACIAL",
+    "proveedor": "nan",
+    "precio": 2000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C44",
+    "nombre": "PIMENTERO MOLINILLO DOBLE",
+    "proveedor": "TECNO IMPORTACIONES",
+    "precio": 9200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3698_20260716_104942_0.png"
+    ]
+  },
+  {
+    "codigo": "6946320200017",
+    "nombre": "PINCEL DE AGUA - WATER BRUSH",
+    "proveedor": "nan",
+    "precio": 2300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "213",
+    "nombre": "PINCELES PARA MAQUILLAJE",
+    "proveedor": "",
+    "precio": 2500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "2000200425571",
+    "nombre": "PINCELES PUNTA REDONDA MULTICOLOR x6",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_573_20260722_184641_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "e2021030600426",
+    "nombre": "PINCHE PICADA BALLENA",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 3600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4387_20260716_180117_0.webp"
+    ]
+  },
+  {
+    "codigo": "42",
+    "nombre": "PINZA DE COCINA MEDIANA",
+    "proveedor": "",
+    "precio": 2500.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6923833579885",
+    "nombre": "PINZA DEPILAR",
+    "proveedor": "nan",
+    "precio": 1400.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "43",
+    "nombre": "PINZA METALICA CHICA",
+    "proveedor": "",
+    "precio": 2500.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "44",
+    "nombre": "PINZA PLÁSTICA DOBLE",
+    "proveedor": "",
+    "precio": 1200.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7795722025006",
+    "nombre": "PISAPAPAS",
+    "proveedor": "nan",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C51",
+    "nombre": "PISTA AMARBLE FLEXIBLE AUTO LED",
+    "proveedor": "TECNO IMPORTACIONES",
+    "precio": 7600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7450077132709",
+    "nombre": "PISTA LANZA AUTOS",
+    "proveedor": "nan",
+    "precio": 5900.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7450077125183",
+    "nombre": "PISTOLA AGUA",
+    "proveedor": "nan",
+    "precio": 4500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_577_20260724_163148_1.jpeg"
+    ]
+  },
+  {
+    "codigo": "7450077090818",
+    "nombre": "PISTOLA AGUA BASE X",
+    "proveedor": "nan",
+    "precio": 5200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "243",
+    "nombre": "PISTOLA HIDROGEL CHICA (EN BOLSA)",
+    "proveedor": "",
+    "precio": 9000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3525_20260717_102134_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "242",
+    "nombre": "PISTOLA HIDROGEL GRANDE (EN CAJA) AK47",
+    "proveedor": "",
+    "precio": 25000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3524_20260717_102746_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "245",
+    "nombre": "PISTOLA LANZA PELOTITAS",
+    "proveedor": "",
+    "precio": 5700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3533_20260717_101855_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "101",
+    "nombre": "PITURRO CON VASO 1600 CC/150CC",
+    "proveedor": "",
+    "precio": 32000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6790-10",
+    "nombre": "PIZARRA CARTÓN",
+    "proveedor": "nan",
+    "precio": 3900.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "BB1002C",
+    "nombre": "PIZARRA MÁGICA",
+    "proveedor": "nan",
+    "precio": 6700.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6965874136559",
+    "nombre": "PIZARRA MÁGICA STITCH",
+    "proveedor": "nan",
+    "precio": 7700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "246",
+    "nombre": "PIZARRAS CARTÓN",
+    "proveedor": "",
+    "precio": 3900.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7171210028122",
+    "nombre": "PLACA SILICONA ANTIADHERENTE 40 X 30",
+    "proveedor": "nan",
+    "precio": 7300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E9611202024018",
+    "nombre": "PLANCHAS MINI",
+    "proveedor": "nan",
+    "precio": 6100.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": [
+      "prod_583_20260718_185950_0.jpg"
+    ]
+  },
+  {
+    "codigo": "270",
+    "nombre": "PLANER PARA HELADERA",
+    "proveedor": "",
+    "precio": 5000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3643_20260718_190128_0.jpg"
+    ]
+  },
+  {
+    "codigo": "4643491645785",
+    "nombre": "PLANER SEMANAL",
+    "proveedor": "nan",
+    "precio": 3200.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_584_20260722_184558_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "214",
+    "nombre": "POP SOCKET PARA CELULAR CON ESPEJO",
+    "proveedor": "",
+    "precio": 2900.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "215",
+    "nombre": "PORTA CELULAR (PROTECTOR AGUA)",
+    "proveedor": "",
+    "precio": 2700.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6202411089887",
+    "nombre": "PORTA CEPILLO DIENTES",
+    "proveedor": "",
+    "precio": 1000.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7790780129260",
+    "nombre": "PORTA CEPILLO DIENTES GRANDE",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6920240101029",
+    "nombre": "PORTA COSMÉTICOS ROSA",
+    "proveedor": "nan",
+    "precio": 9500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e6970139991040",
+    "nombre": "PORTA COTONETES GATO",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 2700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4393_20260716_180834_0.webp",
+      "prod_4393_20260716_180834_1.webp"
+    ]
+  },
+  {
+    "codigo": "45",
+    "nombre": "PORTA ROLLO JIRAFA",
+    "proveedor": "",
+    "precio": 1500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7798132002933",
+    "nombre": "PORTA ROLLO METÁLICO",
+    "proveedor": "nan",
+    "precio": 6000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7798306561754",
+    "nombre": "PORTA SACHET",
+    "proveedor": "nan",
+    "precio": 3800.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "PRO3",
+    "nombre": "PORTACINTA NUBE",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 3400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4386_20260716_181949_0.jpg"
+    ]
+  },
+  {
+    "codigo": "216",
+    "nombre": "PORTACOSMÉTICOS 3 EN 1 PVC",
+    "proveedor": "",
+    "precio": 11700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E4790020537636",
+    "nombre": "PORTACOSMÉTICOS TRENDY EN SET",
+    "proveedor": "nan",
+    "precio": 15000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_590_20260724_182139_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "217",
+    "nombre": "PORTACOSMÉTICOS VERDE CON FLORES",
+    "proveedor": "",
+    "precio": 9800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3449_20260724_185912_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "133",
+    "nombre": "PORTATERMO SIMIL CUERO",
+    "proveedor": "",
+    "precio": 8000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e2020111700192",
+    "nombre": "PORTCUBIERTOS  COMPACT",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 7500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4390_20260716_182642_0.webp",
+      "prod_4390_20260716_182642_1.webp",
+      "prod_4390_20260716_182643_2.webp"
+    ]
+  },
+  {
+    "codigo": "7790780083777",
+    "nombre": "POSA UTENSILIOS",
+    "proveedor": "nan",
+    "precio": 4000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E2022070800036",
+    "nombre": "PROTECTOR TRABA PUERTAS/CAJONES CARACOL",
+    "proveedor": "nan",
+    "precio": 2000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "46",
+    "nombre": "PROTECTOR TRABA PUERTAS/CAJONESX 2 BLANCO",
+    "proveedor": "",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "5430856875425",
+    "nombre": "PULSERA DIAMONT PAITING X 2",
+    "proveedor": "nan",
+    "precio": 3900.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "219",
+    "nombre": "PULSERA GATITOS",
+    "proveedor": "",
+    "precio": 2000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "220",
+    "nombre": "PULSERA PERLAS BLANCAS",
+    "proveedor": "",
+    "precio": 2500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7511093003234",
+    "nombre": "RALLADOR FINO CON MANGO PLÁSTICO",
+    "proveedor": "nan",
+    "precio": 1900.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C38",
+    "nombre": "RALLADOR MULTIUSO 22X 10",
+    "proveedor": "MERCURIO TECH",
+    "precio": 3400.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3692_20260716_103100_0.png"
+    ]
+  },
+  {
+    "codigo": "C49",
+    "nombre": "RATÓN AMONTONA QUESO",
+    "proveedor": "TECNO IMPORTACIONES",
+    "precio": 21000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3703_20260717_102553_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "47",
+    "nombre": "RECIPIENTE PARA DIPS",
+    "proveedor": "",
+    "precio": 3800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C70",
+    "nombre": "REGALO DIA DEL AMIGO BIROME",
+    "proveedor": "",
+    "precio": 3000.0,
+    "stock": 8,
+    "descripcion": "",
+    "fotos": [
+      "prod_3707_20260724_180140_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "7798100969589",
+    "nombre": "REGLA FLEXIBLE X 20 CM",
+    "proveedor": "nan",
+    "precio": 1400.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": [
+      "prod_599_20260722_184000_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "PRO2",
+    "nombre": "RELOJ  DALI DE PARED",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 5400.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_4383_20260719_095500_1.jpeg"
+    ]
+  },
+  {
+    "codigo": "Gqwjd75072",
+    "nombre": "RELOJ  LED PANTALLA",
+    "proveedor": "nan",
+    "precio": 17000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "145",
+    "nombre": "RELOJ CON PULSERAS",
+    "proveedor": "",
+    "precio": 19800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3316_20260724_181202_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "146",
+    "nombre": "RELOJ CUADRADO NIÑOS",
+    "proveedor": "",
+    "precio": 5000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "2400000470861",
+    "nombre": "RELOJ DIGITAL PROYECTOR",
+    "proveedor": "nan",
+    "precio": 21200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_607_20260719_095533_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "147",
+    "nombre": "RELOJ NIÑOS",
+    "proveedor": "",
+    "precio": 3750.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6980255809006",
+    "nombre": "RELOJ SMART WATCH T900",
+    "proveedor": "nan",
+    "precio": 15000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_601_20260724_181142_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "148",
+    "nombre": "RELOJ T 20",
+    "proveedor": "",
+    "precio": 20000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "149",
+    "nombre": "RELOJ ULTRA 3 (7 EN 1)",
+    "proveedor": "",
+    "precio": 25000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3323_20260724_180742_0.jpg"
+    ]
+  },
+  {
+    "codigo": "6916201304639",
+    "nombre": "RELOJ WATCH SMART",
+    "proveedor": "nan",
+    "precio": 13400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7798443380034",
+    "nombre": "REPUESTOS HOJAS AFA",
+    "proveedor": "nan",
+    "precio": 4500.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "48",
+    "nombre": "REVOLVEDOR MANITO",
+    "proveedor": "",
+    "precio": 800.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "221",
+    "nombre": "RIÑONERA",
+    "proveedor": "",
+    "precio": 10000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6900042561542",
+    "nombre": "RODILLO SACA PELUSAS MECANISMO CINTA",
+    "proveedor": "nan",
+    "precio": 4000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7500989795728",
+    "nombre": "ROMPE CABEZA MANZANA",
+    "proveedor": "nan",
+    "precio": 4500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_604_20260724_163048_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "e7453105000872",
+    "nombre": "ROPE CABEZA MINI",
+    "proveedor": "",
+    "precio": 2800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4421_20260720_104112_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "04",
+    "nombre": "RUBOR EN CREMA",
+    "proveedor": "nan",
+    "precio": 4500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "PRO4",
+    "nombre": "SACACORCHO",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 2700.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_4392_20260716_182157_0.webp"
+    ]
+  },
+  {
+    "codigo": "6940079103605",
+    "nombre": "SACAPUNTAS DOBLE",
+    "proveedor": "nan",
+    "precio": 1900.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "8880863938625",
+    "nombre": "SACAPUNTAS DOBLE CON DEPOSITO CAPIBARA",
+    "proveedor": "nan",
+    "precio": 1000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_610_20260724_175211_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6980863993289",
+    "nombre": "SACAPUNTAS DOBLE CON DEPOSITO STITCH",
+    "proveedor": "nan",
+    "precio": 1600.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6975199912240",
+    "nombre": "SACAPUNTAS DOBLE CON GOMA CAPIBARA GRANDE",
+    "proveedor": "nan",
+    "precio": 2300.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_612_20260724_175026_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "49",
+    "nombre": "SECA PLATOS PROGRESIVO WAVE RACK",
+    "proveedor": "",
+    "precio": 11350.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "50",
+    "nombre": "SECAPLATOS PLEGABLE",
+    "proveedor": "",
+    "precio": 20000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "268",
+    "nombre": "SEPARADOR DE MATERIAS SURTIDO",
+    "proveedor": "",
+    "precio": 1900.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": [
+      "prod_3634_20260722_185032_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "51",
+    "nombre": "SEPARADOR DE YEMA",
+    "proveedor": "",
+    "precio": 1000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e2025111742906",
+    "nombre": "SET  X 6 DE VASOS  CURVOS",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 21600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e6987742499740",
+    "nombre": "SET  X3 NARANJA TUPPER",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 5400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4382_20260716_182116_0.webp"
+    ]
+  },
+  {
+    "codigo": "52",
+    "nombre": "SET 3 PINZAS COLOR PASTEL",
+    "proveedor": "",
+    "precio": 3500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "53",
+    "nombre": "SET 4 TUPPER PLEGABLES",
+    "proveedor": "",
+    "precio": 27000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C26",
+    "nombre": "SET ACCESORIOS PARA VINO",
+    "proveedor": "ARTE Y ESCENCIA",
+    "precio": 10400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "2400000243847",
+    "nombre": "SET ARTE 24 PIEZAS",
+    "proveedor": "nan",
+    "precio": 8000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6955223531739",
+    "nombre": "SET CARTUCHERA/REGLA/LÁPIZ OSITO",
+    "proveedor": "nan",
+    "precio": 5300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "54",
+    "nombre": "SET CUCHILLO, DESTAPADOR, PELAPAPAS EN BLISTER",
+    "proveedor": "",
+    "precio": 5000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "55",
+    "nombre": "SET CUCHILLOS COCINA X 6 COLORES PASTEL",
+    "proveedor": "",
+    "precio": 22000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3170_20260718_190528_0.jpg"
+    ]
+  },
+  {
+    "codigo": "56",
+    "nombre": "SET CUCHILLOS POSTRE X 12",
+    "proveedor": "",
+    "precio": 5900.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6579642364589",
+    "nombre": "SET DE COCINA (TIJERA/CUCHILLOS/PELA PAPAS)",
+    "proveedor": "nan",
+    "precio": 18500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_615_20260724_173444_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6926641035260",
+    "nombre": "SET DE SKINCARE X3 PIEZAS",
+    "proveedor": "nan",
+    "precio": 5800.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6926641000091",
+    "nombre": "SET DE SKINCARE X3 PIEZAS \"BEAUTY TOOL\"",
+    "proveedor": "nan",
+    "precio": 6900.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6926641036649",
+    "nombre": "SET DE SKINCARE X3 PIEZAS \"BEAUTY TOOL\" CHICO",
+    "proveedor": "nan",
+    "precio": 6300.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "4790010306396",
+    "nombre": "SET DINO",
+    "proveedor": "nan",
+    "precio": 5000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_619_20260722_184715_0.jpeg",
+      "prod_619_20260722_184715_1.jpeg"
+    ]
+  },
+  {
+    "codigo": "E4894457105915",
+    "nombre": "SET DINO CON MOTO",
+    "proveedor": "nan",
+    "precio": 4500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "4790010306389",
+    "nombre": "SET DREAM SPACE",
+    "proveedor": "nan",
+    "precio": 3500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "134",
+    "nombre": "SET DUO",
+    "proveedor": "",
+    "precio": 6000.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7769528989176",
+    "nombre": "SET ESPECIERO VIDRIO C/BOTELLA",
+    "proveedor": "",
+    "precio": 21000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3649_20260716_105059_0.png",
+      "prod_3649_20260718_191541_1.jpg"
+    ]
+  },
+  {
+    "codigo": "E7790780120939",
+    "nombre": "SET ESPONJAS SILICONA",
+    "proveedor": "nan",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7798367895102",
+    "nombre": "SET FAMILIAR (JARRA Y VASOS COLORES)",
+    "proveedor": "nan",
+    "precio": 6900.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6970041680209",
+    "nombre": "SET GEOMETRÍA",
+    "proveedor": "nan",
+    "precio": 2500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_624_20260722_184018_1.jpeg"
+    ]
+  },
+  {
+    "codigo": "8696219427824",
+    "nombre": "SET HERMETICOS TAPA VISOR",
+    "proveedor": "nan",
+    "precio": 16000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6937719280079",
+    "nombre": "SET LABUBU",
+    "proveedor": "nan",
+    "precio": 3500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_626_20260722_184753_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E4894457102938",
+    "nombre": "SET LANZA AUTOS/AVIONES EN BLISTER",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "135",
+    "nombre": "SET MATE C/BOMBILLA Y TARRO EN CAJA NEGRA",
+    "proveedor": "",
+    "precio": 7500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "136",
+    "nombre": "SET MATERO LATA (ROSA)",
+    "proveedor": "",
+    "precio": 9300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3295_20260718_190649_0.jpg"
+    ]
+  },
+  {
+    "codigo": "137",
+    "nombre": "SET MATERO X 2 DE VIDRIO  RUTA 40",
+    "proveedor": "",
+    "precio": 11400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "138",
+    "nombre": "SET MATERO X 3 DE VIDRIO FORRADO (AZUL/BLANCO)",
+    "proveedor": "",
+    "precio": 10300.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "139",
+    "nombre": "SET MATERO X3 DE PLASTICO CON FRASES",
+    "proveedor": "",
+    "precio": 10000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6922327850677",
+    "nombre": "SET OLLAS X 3",
+    "proveedor": "",
+    "precio": 70000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3652_20260718_191751_0.jpg"
+    ]
+  },
+  {
+    "codigo": "6925012710690",
+    "nombre": "SET PARA ARMAR PULSERAS PIECITO",
+    "proveedor": "nan",
+    "precio": 3700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_628_20260717_114330_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "218",
+    "nombre": "SET PARA VIAJE 4PIEZAS",
+    "proveedor": "",
+    "precio": 4000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C47",
+    "nombre": "SET PARA VIAJE 7 PIEZAS",
+    "proveedor": "TECNO IMPORTACIONES",
+    "precio": 4600.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3701_20260716_104255_0.png"
+    ]
+  },
+  {
+    "codigo": "e2024111830194",
+    "nombre": "SET PARA VIAJES X 6 PIEZAS",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 4500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4413_20260716_180212_1.webp"
+    ]
+  },
+  {
+    "codigo": "6398090529926",
+    "nombre": "SET PASTELERÍA 12 PIEZAS",
+    "proveedor": "nan",
+    "precio": 8700.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_644_20260724_173144_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "C17",
+    "nombre": "SET PERFILADOR/MEDIDOR/PINCEL CEJAS",
+    "proveedor": "",
+    "precio": 2700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6971123958995",
+    "nombre": "SET PINCEL COCINA X 2 Y ESPÁTULA",
+    "proveedor": "nan",
+    "precio": 4900.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_629_20260724_173301_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E7891240026423",
+    "nombre": "SET PLATOS Y VASOS X 16 CRISTAL",
+    "proveedor": "nan",
+    "precio": 40000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7891240023309",
+    "nombre": "SET PLATOS Y VASOS X 20 CRISTAL",
+    "proveedor": "nan",
+    "precio": 66000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C15",
+    "nombre": "SET REGALO BOLSA CANASTA",
+    "proveedor": "",
+    "precio": 15000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C14",
+    "nombre": "SET REGALO BOLSA MOÑO",
+    "proveedor": "",
+    "precio": 10000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C13",
+    "nombre": "SET REGALO BOLSA TRANSPARENTE",
+    "proveedor": "",
+    "precio": 10000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "PRO8",
+    "nombre": "SET REGALO CON MEDIAS",
+    "proveedor": "",
+    "precio": 5000.0,
+    "stock": 5,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7798124350479",
+    "nombre": "SET TABLAS DE CORTE CON SOPORTE",
+    "proveedor": "nan",
+    "precio": 16000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_632_20260724_163625_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "140",
+    "nombre": "SET TARRO TEXTURADO LISO (YERBA-AZÚCAR)",
+    "proveedor": "",
+    "precio": 4300.0,
+    "stock": 5,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "57",
+    "nombre": "SET TENEDORES POSTRE X 6",
+    "proveedor": "",
+    "precio": 6100.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C40",
+    "nombre": "SET TUPPER ACERO X 5",
+    "proveedor": "MERCURIO TECH",
+    "precio": 11300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6924220505166",
+    "nombre": "SET UÑAS DIY",
+    "proveedor": "nan",
+    "precio": 13500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_633_20260717_115042_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "7450077056067",
+    "nombre": "SET UÑAS TINY",
+    "proveedor": "nan",
+    "precio": 6400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_634_20260717_114050_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "e6970139991170",
+    "nombre": "SET VASOS GATO",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 8100.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4389_20260716_180631_0.webp",
+      "prod_4389_20260716_180631_1.webp",
+      "prod_4389_20260716_180631_2.webp"
+    ]
+  },
+  {
+    "codigo": "C29",
+    "nombre": "SET VELAS CUMPLEAÑOS",
+    "proveedor": "ARTE Y ESCENCIA",
+    "precio": 1800.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3685_20260724_173214_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6908640174027",
+    "nombre": "SET VINCHA INFANTIL",
+    "proveedor": "nan",
+    "precio": 2400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e2025091746222",
+    "nombre": "SET X 2 TAZAS DOBLE  VIDRIO",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 14400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4405_20260716_180406_0.webp"
+    ]
+  },
+  {
+    "codigo": "e2025111742968",
+    "nombre": "SET X 6  VASOS  GLACIAR",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 21600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4407_20260716_182853_0.webp"
+    ]
+  },
+  {
+    "codigo": "e6978751301858",
+    "nombre": "SET X 6 COPA DE VINO TORNASOLADA",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 19800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4409_20260716_182721_0.webp"
+    ]
+  },
+  {
+    "codigo": "e2025111242505",
+    "nombre": "SET X 6 COPA LEMONCHAP",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 18000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4410_20260716_180442_0.webp"
+    ]
+  },
+  {
+    "codigo": "e2025111742869",
+    "nombre": "SET X 6 VASOS ONDULADO",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 18000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4408_20260716_182819_0.webp",
+      "prod_4408_20260716_182951_1.webp",
+      "prod_4408_20260716_182951_2.webp"
+    ]
+  },
+  {
+    "codigo": "03",
+    "nombre": "SOMBRA TRES  COLORES",
+    "proveedor": "nan",
+    "precio": 3900.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7170972985230",
+    "nombre": "SOPLETE PARA GAS BUTANO AEROSOL",
+    "proveedor": "nan",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "222",
+    "nombre": "SOPORTE CELULAR ENCHUFE",
+    "proveedor": "",
+    "precio": 1000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "223",
+    "nombre": "SOPORTE CELULAR PARA PARED",
+    "proveedor": "",
+    "precio": 3500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "58",
+    "nombre": "SOPORTE MULTIUSO PULPO",
+    "proveedor": "",
+    "precio": 1900.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7170972996984",
+    "nombre": "SOPORTE PARA NOTEBOOK",
+    "proveedor": "nan",
+    "precio": 7000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e2021030600204",
+    "nombre": "SORBETE  SILICONAS",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 4500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4411_20260716_183540_0.webp"
+    ]
+  },
+  {
+    "codigo": "E6288150202404",
+    "nombre": "SORBETE CUCHARA",
+    "proveedor": "nan",
+    "precio": 6600.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7960090101007",
+    "nombre": "SORBETE REUTILIZABLE",
+    "proveedor": "nan",
+    "precio": 3000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "Gpbgo32069",
+    "nombre": "SORBETE REUTILIZABLE CON LIMPIADOR",
+    "proveedor": "nan",
+    "precio": 4500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "59",
+    "nombre": "SORBETE REUTILIZABLE RECTO METAL",
+    "proveedor": "",
+    "precio": 900.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6962484855122",
+    "nombre": "STICKERS HOLOGRAFICOS",
+    "proveedor": "nan",
+    "precio": 2000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "60",
+    "nombre": "TABLA PICADAS 4 DIVISIONES",
+    "proveedor": "",
+    "precio": 5200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3185_20260722_185240_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "61",
+    "nombre": "TACHO CANASTO ROGANIZADOR DE PLÁSTICO 16 CM",
+    "proveedor": "",
+    "precio": 4300.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "244",
+    "nombre": "TAMAGOTCHI",
+    "proveedor": "",
+    "precio": 6400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3529_20260717_114013_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E4564856555429",
+    "nombre": "TAPAS ADAPTABLES SILICONA",
+    "proveedor": "nan",
+    "precio": 6000.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "00000000",
+    "nombre": "TAPON LUMILAGRO",
+    "proveedor": "nan",
+    "precio": 6500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "102",
+    "nombre": "TAPON PARA SORBETE",
+    "proveedor": "",
+    "precio": 4000.0,
+    "stock": 7,
+    "descripcion": "",
+    "fotos": [
+      "prod_3251_20260724_181756_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "Gnusk74557",
+    "nombre": "TAPON TERMO PICO ROJO",
+    "proveedor": "nan",
+    "precio": 5200.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_647_20260718_183609_0.jpg"
+    ]
+  },
+  {
+    "codigo": "Givbm36606",
+    "nombre": "TAPON TERMO PUSH UP",
+    "proveedor": "nan",
+    "precio": 5200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "Gcspn10845",
+    "nombre": "TAPON TERMO TIPO VASO VERDE",
+    "proveedor": "nan",
+    "precio": 5700.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6901615300025",
+    "nombre": "TARTERA CHICA FONDO DESMONTABLE",
+    "proveedor": "nan",
+    "precio": 0.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "2007505089545",
+    "nombre": "TATETI MADERA",
+    "proveedor": "nan",
+    "precio": 4000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_651_20260717_114511_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "67",
+    "nombre": "TAZA CERÁMICA CON RAYAS BLANCAS",
+    "proveedor": "",
+    "precio": 5200.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7790780111821",
+    "nombre": "TAZA CERÁMICA DISEÑO FAMOSO 200ML",
+    "proveedor": "nan",
+    "precio": 5300.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "62",
+    "nombre": "TAZA CERÁMICA DISEÑO PERSONAJES",
+    "proveedor": "",
+    "precio": 6000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "68",
+    "nombre": "TAZA CHICA DOBLE VIDRIO X 2",
+    "proveedor": "",
+    "precio": 8000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "PRO14",
+    "nombre": "TAZA DE VIDRIO   MANIJA DORADA",
+    "proveedor": "",
+    "precio": 12200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4433_20260720_172516_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "63",
+    "nombre": "TAZA DE VIDRIO CON TAPA SILICONA Y CUCHARA DISEÑO CARA GATOS",
+    "proveedor": "",
+    "precio": 16200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "64",
+    "nombre": "TAZA DOBLE VIDRIO FLORES",
+    "proveedor": "",
+    "precio": 6500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3191_20260716_101454_0.png",
+      "prod_3191_20260720_112133_1.jpeg"
+    ]
+  },
+  {
+    "codigo": "65",
+    "nombre": "TAZA MEZCLADORA 400 ML CARCARGA USB",
+    "proveedor": "",
+    "precio": 16000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3192_20260716_104045_0.png"
+    ]
+  },
+  {
+    "codigo": "66",
+    "nombre": "TAZA MUG CERÁMICA",
+    "proveedor": "",
+    "precio": 5600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6955196095825",
+    "nombre": "TAZA TERMICA GATITO",
+    "proveedor": "nan",
+    "precio": 5900.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "PRO6",
+    "nombre": "TAZAS TORRE PISSA",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 10800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4412_20260716_182034_0.webp",
+      "prod_4412_20260716_182035_1.webp"
+    ]
+  },
+  {
+    "codigo": "69",
+    "nombre": "TENEDORES CON APLIQUE DE SILICONA DORADO/plata",
+    "proveedor": "",
+    "precio": 2700.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7792281000796",
+    "nombre": "TENEDORES X 3 PIEZAS CAROL",
+    "proveedor": "nan",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E6916083578524",
+    "nombre": "TERMO + 3 TAZAS",
+    "proveedor": "nan",
+    "precio": 19000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_654_20260720_113741_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "8795565250046",
+    "nombre": "TERMO CON TAPA/MATE Y BOMBILLA",
+    "proveedor": "nan",
+    "precio": 28000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7798074821036",
+    "nombre": "TERMO IRROMPIBLE PLASTICO",
+    "proveedor": "nan",
+    "precio": 5600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6952025010172",
+    "nombre": "TERMO MEDIA MANIJA COLOR PASTEL",
+    "proveedor": "nan",
+    "precio": 23400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7892022625414",
+    "nombre": "TERMO MEDIA MANIJA FUNDA ECOCUERO",
+    "proveedor": "nan",
+    "precio": 22000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_658_20260720_103434_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "Gdxls11366",
+    "nombre": "TERMOMETRO DE  COCINA",
+    "proveedor": "nan",
+    "precio": 8000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_659_20260718_190248_0.jpg"
+    ]
+  },
+  {
+    "codigo": "224",
+    "nombre": "TERMÓMETRO DIGITAL",
+    "proveedor": "",
+    "precio": 3400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3462_20260718_191238_0.jpg"
+    ]
+  },
+  {
+    "codigo": "4790010102744",
+    "nombre": "TIJERA CON FUNDA",
+    "proveedor": "nan",
+    "precio": 2000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_660_20260722_184225_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "269",
+    "nombre": "TIJERA ESCOLAR",
+    "proveedor": "",
+    "precio": 1700.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": [
+      "prod_3641_20260722_184130_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "161",
+    "nombre": "TIRA LED 5 METROS",
+    "proveedor": "",
+    "precio": 7800.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": [
+      "prod_3349_20260718_190745_0.jpg"
+    ]
+  },
+  {
+    "codigo": "225",
+    "nombre": "TOALLA DE MANO OSITO",
+    "proveedor": "",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C11",
+    "nombre": "TOALLA MANO GARRA",
+    "proveedor": "",
+    "precio": 2700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e7798151505835",
+    "nombre": "TRATAMIENTO CAPILAR ZID",
+    "proveedor": "nan",
+    "precio": 1900.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "226",
+    "nombre": "TRIPODE PARA CELULAR",
+    "proveedor": "",
+    "precio": 2800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6925250117756",
+    "nombre": "TROMPO CON LUZ",
+    "proveedor": "nan",
+    "precio": 2600.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "70",
+    "nombre": "TUPPER CHICO TAPA VISOR",
+    "proveedor": "",
+    "precio": 3900.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7790780109750",
+    "nombre": "TUPPER PLEGABLE",
+    "proveedor": "nan",
+    "precio": 8000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7790000156762",
+    "nombre": "TUPPER PLEGABLE CON MANGO",
+    "proveedor": "nan",
+    "precio": 5400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7170972992856",
+    "nombre": "TUPPER PLEGABLE SILICONA 350ml HERMÉTICO",
+    "proveedor": "nan",
+    "precio": 9000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "71",
+    "nombre": "TUPPERS/VIANDAS \"PASTELES\" X3 PIEZAS",
+    "proveedor": "",
+    "precio": 8900.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "72",
+    "nombre": "UNTADOR EQUILIBRISTA PASTEL",
+    "proveedor": "",
+    "precio": 1000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3203_20260724_173539_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "7798092963275",
+    "nombre": "UNTADOR X 2 METÁLICO",
+    "proveedor": "nan",
+    "precio": 4500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e2024101000224",
+    "nombre": "VALADO LED  LUNA",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 7200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4400_20260716_175804_1.webp"
+    ]
+  },
+  {
+    "codigo": "103",
+    "nombre": "VASO ACRILICO TAPA HELADO CON SORBETE",
+    "proveedor": "",
+    "precio": 8500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "104",
+    "nombre": "VASO CAFÉ CON FRASES CHICO",
+    "proveedor": "",
+    "precio": 2300.0,
+    "stock": 3,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "105",
+    "nombre": "VASO CAFÉ CON FRASES GRANDE (FRASES FRIDA)",
+    "proveedor": "",
+    "precio": 5000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "106",
+    "nombre": "VASO CAFÉ CON FRASES GRANDE (VERDE/LILA)",
+    "proveedor": "",
+    "precio": 3000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "108",
+    "nombre": "VASO DOBLE PARED VIDRIO ONDULADO",
+    "proveedor": "",
+    "precio": 5500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E1780998100935",
+    "nombre": "VASO HENGDA CON DESTAPADOR",
+    "proveedor": "nan",
+    "precio": 15000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7790780088253",
+    "nombre": "VASO PORTA CEPILLO",
+    "proveedor": "nan",
+    "precio": 4500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "109",
+    "nombre": "VASO ROSA GRANDE CON SORBETE",
+    "proveedor": "",
+    "precio": 3000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "110",
+    "nombre": "VASO SORBETE Y TAPA (ROSA/VERDE AGUA)",
+    "proveedor": "",
+    "precio": 2800.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "111",
+    "nombre": "VASO SORBETE Y TAPA (VERDE AGUA)",
+    "proveedor": "",
+    "precio": 2500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e2021030600105",
+    "nombre": "VASO TERMICO 350 CC",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 10800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4396_20260716_182552_0.webp"
+    ]
+  },
+  {
+    "codigo": "e2025092541130||",
+    "nombre": "VASO TERMICO 500 CC",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 10800.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4397_20260716_182421_0.webp"
+    ]
+  },
+  {
+    "codigo": "e2025101642032",
+    "nombre": "VASO TERMIICO 600 CC",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 18000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4398_20260716_182510_0.webp",
+      "prod_4398_20260716_182510_1.webp"
+    ]
+  },
+  {
+    "codigo": "113",
+    "nombre": "VASO TIPO QUENCHER CHICO DE VIDRIO C/SORBETE DE VIDRIO",
+    "proveedor": "ARTE Y ESCENCIA",
+    "precio": 6100.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "114",
+    "nombre": "VASO TIPO QUENCHER CON FONDO DESMONTABLE QUE SE HACE VASO",
+    "proveedor": "",
+    "precio": 27000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E2400000001553",
+    "nombre": "VASO TIPO QUENCHER HAVE GOOD TIME",
+    "proveedor": "nan",
+    "precio": 25500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "115",
+    "nombre": "VASO TIPO QUENCHER ICE CREAM 1000 ml",
+    "proveedor": "",
+    "precio": 23000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "116",
+    "nombre": "VASO TIPO QUENCHER LISO",
+    "proveedor": "",
+    "precio": 22000.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E5658565543392",
+    "nombre": "VASO TIPO QUENCHER SIMIL STANLEY CON ADORNOS",
+    "proveedor": "nan",
+    "precio": 27000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "117",
+    "nombre": "VASO TIPO QUENCHER SIMIL STANLEY CON GLITTER 1200ML / CORAZÓN/ESTRELLAS",
+    "proveedor": "",
+    "precio": 26000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "118",
+    "nombre": "VASO TIPO QUENCHER VIDRIO LABRADO CON SORBETE VIDRIO",
+    "proveedor": "",
+    "precio": 12000.0,
+    "stock": 4,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E7499356245518",
+    "nombre": "VASO TÉRMICO CHEERS",
+    "proveedor": "nan",
+    "precio": 16000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E1780998103042",
+    "nombre": "VASO TÉRMICO COFFE CON MEDIDOR DE TEMPERATURA",
+    "proveedor": "nan",
+    "precio": 18000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_673_20260720_113412_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "112",
+    "nombre": "VASO TÉRMICO COFFE SIN MEDIDOR DE TEMPERATURA",
+    "proveedor": "",
+    "precio": 14000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "E2000200429524",
+    "nombre": "VASO TÉRMICO NEGRO VACUM CUP",
+    "proveedor": "nan",
+    "precio": 16000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_674_20260720_173020_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "l0248805592573",
+    "nombre": "VASO VIDRIO CON FAJA, TAPA Y SORBETE 450CC",
+    "proveedor": "nan",
+    "precio": 8400.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "C28",
+    "nombre": "VASO VIDRIO CON SORBETE CHICO  FAJA",
+    "proveedor": "ARTE Y ESCENCIA",
+    "precio": 5500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3684_20260720_112813_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "E2000200573821",
+    "nombre": "VASO VIDRIO CON SORBETE GRANDE",
+    "proveedor": "",
+    "precio": 7500.0,
+    "stock": 2,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "120",
+    "nombre": "VASOS AFA",
+    "proveedor": "",
+    "precio": 5000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "7798215285093",
+    "nombre": "VASOS CUCURUCHO HELADO CON CUCHARA",
+    "proveedor": "nan",
+    "precio": 6900.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "121",
+    "nombre": "VASOS PELOTA",
+    "proveedor": "",
+    "precio": 3000.0,
+    "stock": 5,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "123",
+    "nombre": "VASOS X 6",
+    "proveedor": "",
+    "precio": 26500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "e6916730162113",
+    "nombre": "VELADOR ARCO IRIS",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 5200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4385_20260716_180528_0.webp"
+    ]
+  },
+  {
+    "codigo": "e2024101000217",
+    "nombre": "VELADOR LED ESTRELLA",
+    "proveedor": "ITEMS OBJETOS",
+    "precio": 7200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_4399_20260716_175727_0.webp"
+    ]
+  },
+  {
+    "codigo": "L248805592574",
+    "nombre": "VINCHA SKIN CARE (ROSA)",
+    "proveedor": "",
+    "precio": 2700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "237",
+    "nombre": "YENGA CON DADOS",
+    "proveedor": "",
+    "precio": 10200.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": [
+      "prod_3495_20260717_101610_0.jpeg"
+    ]
+  },
+  {
+    "codigo": "6253546552661",
+    "nombre": "ZAPATILLA 6HEAD 2 USB",
+    "proveedor": "nan",
+    "precio": 13700.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "6251111011070",
+    "nombre": "ZAPATILLA ENCHUFE BASE DE CARGA 2TipoC PD+2USB PORTACELULAR",
+    "proveedor": "nan",
+    "precio": 9500.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  },
+  {
+    "codigo": "163",
+    "nombre": "ZAPATILLA USB EXAGONAL",
+    "proveedor": "",
+    "precio": 12000.0,
+    "stock": 1,
+    "descripcion": "",
+    "fotos": []
+  }
+]
