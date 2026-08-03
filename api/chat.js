@@ -102,13 +102,12 @@ export default async function handler(req, res) {
     if (!message) return res.status(200).json({ reply: 'Mandame un mensaje y te ayudo! Que buscas, che?', products: [] });
 
     const catalogo = await getCatalogo();
-    console.log('Mensaje: "' + message + '" | Catalogo: ' + catalogo.length);
-
     const matched = searchProducts(message, catalogo);
-    console.log('Encontrados: ' + matched.length);
+    const cantEncontrados = matched.length;
+    console.log('Msg: "' + message + '" | Cat: ' + catalogo.length + ' | Found: ' + cantEncontrados);
 
     let productInfo = '';
-    if (matched.length > 0) {
+    if (cantEncontrados > 0) {
       productInfo = 'PRODUCTOS DEL CATALOGO:\n' +
         matched.map((p, i) => {
           const f = fmt(p);
@@ -118,15 +117,27 @@ export default async function handler(req, res) {
       productInfo = 'No hay productos que coincidan exactamente.';
     }
 
-    const systemPrompt = 'Sos Lolo, el asistente de un bazar/libreria/jugueteria en Argentina. Tu logo es una bolsita en un monopatin. Hablas en argentino con "che", "vos", "re", "dale", "mira".\n\n' +
+    let accion = '';
+    if (cantEncontrados > 5) {
+      accion = '🔍 ¡Encontre un monton de cosas! Mirá estos que te pueden servir:';
+    } else if (cantEncontrados > 0) {
+      accion = '🔍 ¡Mirá lo que encontré en el catálogo!';
+    } else {
+      accion = '🤔 Mmm, busqué pero no encontré exactamente eso...';
+    }
+
+    const systemPrompt = 'Sos Lolo, el asistente de un bazar/libreria/jugueteria en Argentina. Tu logo es una bolsita en un monopatin 🛹. Hablas en argentino con "che", "vos", "re", "dale", "mira", "ojo".\n\n' +
       'REGLAS:\n' +
       '1. RESPONDE SOLO sobre productos de la tienda. Si preguntan sobre fisica, matematica, ciencia, programacion o cualquier tema fuera del bazar, deci: "Che, yo soy Lolo de la libreria, de eso no se nada! Pero si necesitas algo para el hogar, utiles o juguetes, preguntame!"\n' +
       '2. NUNCA digas "catalogo vacio" ni "no tengo productos". Siempre hay productos.\n' +
-      '3. Menciona hasta 5 productos por nombre y precio de la lista de PRODUCTOS DEL CATALOGO.\n' +
-      '4. Si no hay coincidencias exactas, sugerir similares de la lista.\n' +
-      '5. Respuestas CORTAS, 2-4 lineas maximo.\n' +
-      '6. NUNCA muestres JSON ni formato tecnico. Habla como un vendedor.\n\n' +
-      productInfo;
+      '3. Empeza tu respuesta con la linea de ACCION que te paso arriba (la que empieza con emoji).\n' +
+      '4. Despues de la accion, mencioná hasta 5 productos por nombre y precio de la lista PRODUCTOS DEL CATALOGO.\n' +
+      '5. Si no hay coincidencias, sugerí algo similar o deci "Pasa por la tienda que seguro tenemos algo que te sirve!"\n' +
+      '6. Respuestas CORTAS, maximo 3-4 lineas.\n' +
+      '7. NUNCA muestres JSON, corchetes ni formato tecnico. Habla como un vendedor.\n' +
+      '8. Agregá emogis de vez en cuando pero sin exagerar (🛹 ✨ 😊 🔍)\n\n' +
+      'LINEA DE ACCION (siempre incluila al inicio de tu respuesta):\n' + accion + '\n\n' +
+      'PRODUCTOS DEL CATALOGO:\n' + productInfo;
 
     const groqRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
@@ -138,9 +149,9 @@ export default async function handler(req, res) {
       })
     });
 
-    if (!groqRes.ok) return res.status(200).json({ reply: 'Ups, tuve un problemita de conexion. Proba de nuevo, che.', products: [] });
+    if (!groqRes.ok) return res.status(200).json({ reply: 'Ups, tuve un problemita de conexion 😞. Proba de nuevo, che. Si es urgente, escribi por WhatsApp que ¡te ayudo al toque! 📱', products: [] });
     const data = await groqRes.json();
-    if (data.error) return res.status(200).json({ reply: 'Ups, tuve un problemita de conexion. Proba de nuevo, che.', products: [] });
+    if (data.error) return res.status(200).json({ reply: 'Ups, tuve un problemita de conexion 😞. Proba de nuevo, che. Si es urgente, escribi por WhatsApp que ¡te ayudo al toque! 📱', products: [] });
 
     const reply = (data.choices && data.choices[0] && data.choices[0].message) ? data.choices[0].message.content : 'Proba de nuevo, che.';
 
@@ -149,6 +160,6 @@ export default async function handler(req, res) {
 
   } catch (error) {
     console.error('Error:', error.message);
-    return res.status(200).json({ reply: 'Ups, tuve un problemita de conexion. Proba de nuevo, che.', products: [] });
+    return res.status(200).json({ reply: 'Ups, tuve un problemita de conexion 😞. Proba de nuevo, che. Si es urgente, escribi por WhatsApp que ¡te ayudo al toque! 📱', products: [] });
   }
 }
