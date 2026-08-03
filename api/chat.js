@@ -141,7 +141,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { message, history = [] } = req.body;
+    const { message, history = [], model } = req.body;
 
     if (!message || typeof message !== 'string' || message.trim().length === 0) {
       return res.status(400).json({ error: 'Mensaje vac├¡o' });
@@ -157,7 +157,7 @@ export default async function handler(req, res) {
     // Inicializar Gemini
     const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
     const model = genAI.getGenerativeModel({ 
-      model: MODEL_NAME,
+      model: model || MODEL_NAME,
       generationConfig: {
         temperature: 0.7,
         topP: 0.9,
