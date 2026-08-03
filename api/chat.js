@@ -1,129 +1,154 @@
-const GROQ_API_KEY = process.env.GROQ_API_KEY;
-const MODEL = 'llama-3.3-70b-versatile';
-const CATALOGO_URL = 'https://raw.githubusercontent.com/srmagoshahks/lolo-chat-api/main/public/catalogo.json';
-
-const NEGOCIO = {
-  nombre: 'LOLO Sobre Ruedas',
-  tipo: 'Bazar, libreria, jugueteria, accesorios y mas',
-  direccion: 'Leopoldo Herrera 1693',
-  telefono: '3455-541097',
-  whatsapp: '5493455541097',
-  email: 'lolosobreruedas@gmail.com',
-  horario: '9:00 a 12:00 / 16:00 a 19:30'
-};
-
-let catalogoCache = null;
-let catalogoLoadTime = 0;
-const CACHE_DURATION = 5 * 60 * 1000;
+﻿let catalogoCache = { data: null, time: 0 };
+const CACHE_MIN = 10;
 
 async function getCatalogo() {
-  if (catalogoCache && (Date.now() - catalogoLoadTime) < CACHE_DURATION) return catalogoCache;
+  const ahora = Date.now();
+  if (catalogoCache.data && (ahora - catalogoCache.time) < CACHE_MIN * 60000) {
+    return catalogoCache.data;
+  }
   try {
-    const resp = await fetch(CATALOGO_URL);
-    catalogoCache = await resp.json();
-    catalogoLoadTime = Date.now();
-    return catalogoCache;
-  } catch (err) {
-    console.error('Error cargando catalogo:', err.message);
-    return catalogoCache || [];
-  }
-}
-
-function buildSystemPrompt(catalogo) {
-  const totalProductos = catalogo.length;
-  const conStock = catalogo.filter(p => p.stock > 0).length;
-  const proveedores = {};
-  catalogo.forEach(p => {
-    if (p.proveedor && p.proveedor !== 'nan' && p.proveedor.trim()) {
-      const key = p.proveedor.trim();
-      if (!proveedores[key]) proveedores[key] = [];
-      proveedores[key].push(p.nombre);
+    console.log('Actualizando catalogo desde GitHub Pages...');
+    const res = await fetch('https://srmagoshahks.github.io/lolo-catalogo/');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const html = await res.text();
+    const idx = html.indexOf('const PRODUCTOS = ');
+    if (idx === -1) throw new Error('No se encontro PRODUCTOS');
+    const jsonStart = html.indexOf('[', idx);
+    let profundidad = 0;
+    let jsonEnd = -1;
+    for (let i = jsonStart; i < html.length; i++) {
+      if (html[i] === '[') profundidad++;
+      else if (html[i] === ']') { profundidad--; if (profundidad === 0) { jsonEnd = i + 1; break; } }
     }
-  });
-  const catList = Object.entries(proveedores).map(([prov, prods]) => '- ' + prov + ': ' + prods.slice(0, 5).join(', ') + (prods.length > 5 ? ' (+' + (prods.length - 5) + ' mas)' : '')).join('\n');
-  const productosTexto = catalogo.filter(p => p.stock > 0).slice(0, 150).map(p => '- "' + p.nombre + '" | $' + p.precio + ' | stock: ' + p.stock).join('\n');
-
-  return 'Eres Lolo, el asistente virtual de "' + NEGOCIO.nombre + '", un bazar/libreria/jugueteria en ' + NEGOCIO.direccion + '.\n\n' +
-    'CATALOGO: ' + totalProductos + ' productos, ' + conStock + ' con stock.\n\n' +
-    'Rubros principales:\n' + (catList || '- Bazar general') + '\n\n' +
-    'Productos con stock (muestra):\n' + productosTexto + '\n\n' +
-    'REGLAS:\n' +
-    '1. Hablas en argentino casual: "vos", "che", "dale", "re". Amigable pero no ridculo.\n' +
-    '2. Si preguntan por productos del catalogo, buscas y sugeris con precio.\n' +
-    '3. Si no encontras exactamente, sugeris lo mas parecido del catalogo.\n' +
-    '4. Precios en pesos argentinos con puntos de miles (ej: $15.000).\n' +
-    '5. SOLO mencionas WhatsApp si el usuario quiere comprar o hacer un pedido. No por cualquier pregunta.\n' +
-    '6. Si preguntan algo que no es del negocio (como formulas, chistes, etc), respondes normalmente como IA amigable. No menciones el negocio en esos casos.\n' +
-    '7. Maximo 3 oraciones por respuesta.\n' +
-    '8. NUNCA inventes productos que no estan en el catalogo.\n\n' +
-    'RESPONDE UNICAMENTE CON JSON, sin texto adicional, sin markdown, sin backticks:\n' +
-    '{"reply":"tu respuesta","product_ids":["nombre exacto del producto del catalogo"]}\n' +
-    '- reply: tu respuesta al usuario\n' +
-    '- product_ids: nombres EXACTOS del catalogo que sugeris (max 3). Vacio [] si no aplica.\n' +
-    '- Los nombres deben coincidir EXACTAMENTE con los del catalogo.';
+    if (jsonEnd === -1) throw new Error('JSON incompleto');
+    const datos = JSON.parse(html.substring(jsonStart, jsonEnd));
+    catalogoCache = { data: datos, time: ahora };
+    console.log('Catalogo OK: ' + datos.length + ' productos');
+    return datos;
+  } catch (e) {
+    console.error('Error cargando catalogo:', e.message);
+    return catalogoCache.data || [];
+  }
 }
 
-function findProducts(catalogo, nombres) {
-  if (!nombres || !Array.isArray(nombres)) return [];
-  const encontrados = [];
-  for (const nombre of nombres) {
-    const prod = catalogo.find(p => p.nombre.trim().toLowerCase() === nombre.trim().toLowerCase() && p.stock > 0);
-    if (prod && !encontrados.find(e => e.nombre === prod.nombre)) encontrados.push(prod);
-    if (encontrados.length >= 3) break;
+const SYNONYMS = {
+  'marcador': ['fibra', 'pizarra', 'permanent', 'textil', 'sharpie', 'marker', 'pincel', 'resaltador', 'fluo'],
+  'vaso': ['termico', 'vidrio', 'acero', 'mate', 'cerveza', 'taza', 'jarro'],
+  'termico': ['vaso', 'mate', 'termo', 'botella'],
+  'cuaderno': ['anotador', 'libreta', 'nota', 'kraft'],
+  'libreta': ['cuaderno', 'anotador'],
+  'anotador': ['cuaderno', 'libreta'],
+  'lapiz': ['lapicera', 'birome', 'esfero', 'grafito'],
+  'lapicera': ['birome', 'esfero'],
+  'birome': ['lapicera', 'esfero'],
+  'juguete': ['juego'],
+  'tijera': ['corta'],
+  'goma': ['borrar', 'borra'],
+  'pegamento': ['pasta', 'glue', 'stick'],
+  'folder': ['carpeta', 'porta'],
+  'carpeta': ['folder', 'porta'],
+  'mochila': ['bolso'],
+  'estuche': ['portalapiz', 'cartuchera'],
+  'cartuchera': ['estuche', 'portalapiz'],
+};
+
+function searchProducts(query, catalogo) {
+  if (!catalogo || catalogo.length === 0) return [];
+  const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+  const terms = norm(query).split(/\s+/).filter(t => t.length > 2);
+  if (terms.length === 0) return [];
+  const allTerms = new Set(terms);
+  for (const term of terms) {
+    for (const [key, syns] of Object.entries(SYNONYMS)) {
+      if (norm(key).includes(term) || term.includes(norm(key))) {
+        syns.forEach(s => allTerms.add(norm(s)));
+      }
+    }
   }
-  return encontrados;
+  const expanded = [...allTerms];
+  const scored = catalogo.map(p => {
+    const name = norm(p.nombre || '');
+    const desc = norm(p.descripcion || '');
+    let score = 0;
+    for (const t of expanded) {
+      if (name.includes(t)) score += 5;
+      if (desc.includes(t)) score += 1;
+    }
+    return { product: p, score };
+  });
+  return scored.filter(s => s.score > 0).sort((a, b) => b.score - a.score).slice(0, 25).map(s => s.product);
+}
+
+function fmt(p) {
+  const nombre = p.nombre || 'Sin nombre';
+  const precio = p.precio ? '$' + Number(p.precio).toLocaleString('es-AR') : '';
+  const foto = (p.fotos && p.fotos.length > 0) ? p.fotos[0] : '';
+  return { id: p.codigo || p.id, nombre, precio, foto };
 }
 
 export default async function handler(req, res) {
-  if (req.method === 'OPTIONS') return res.status(200).end();
-  if (req.method !== 'POST') return res.status(405).json({ error: 'Metodo no permitido' });
+  if (req.method === 'OPTIONS') {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+    return res.status(200).end();
+  }
+  if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
   try {
-    const { message, history = [] } = req.body;
-    if (!message || typeof message !== 'string' || message.trim().length === 0) return res.status(400).json({ error: 'Mensaje vacio' });
-    if (!GROQ_API_KEY) return res.status(500).json({ error: 'API Key de Groq no configurada' });
+    const { message } = req.body;
+    if (!message) return res.status(200).json({ reply: 'Mandame un mensaje y te ayudo! Que buscas, che?', products: [] });
 
     const catalogo = await getCatalogo();
-    const systemPrompt = buildSystemPrompt(catalogo);
+    console.log('Mensaje: "' + message + '" | Catalogo: ' + catalogo.length);
 
-    const messages = [
-      { role: 'system', content: systemPrompt },
-      { role: 'user', content: 'Entendido. Respondo solo con JSON.' },
-      { role: 'assistant', content: '{"reply":"Entendido.","product_ids":[]}' },
-      ...history.map(h => ({ role: h.role === 'user' ? 'user' : 'assistant', content: h.text })),
-      { role: 'user', content: message }
-    ];
+    const matched = searchProducts(message, catalogo);
+    console.log('Encontrados: ' + matched.length);
 
-    const groqResp = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+    let productInfo = '';
+    if (matched.length > 0) {
+      productInfo = 'PRODUCTOS DEL CATALOGO:\n' +
+        matched.map((p, i) => {
+          const f = fmt(p);
+          return (i + 1) + '. ' + f.nombre + (f.precio ? ' - ' + f.precio : '') + (f.foto ? ' [FOTO]' : '');
+        }).join('\n');
+    } else {
+      productInfo = 'No hay productos que coincidan exactamente.';
+    }
+
+    const systemPrompt = 'Sos Lolo, el asistente de un bazar/libreria/jugueteria en Argentina. Tu logo es una bolsita en un monopatin. Hablas en argentino con "che", "vos", "re", "dale", "mira".\n\n' +
+      'REGLAS:\n' +
+      '1. RESPONDE SOLO sobre productos de la tienda. Si preguntan sobre fisica, matematica, ciencia, programacion o cualquier tema fuera del bazar, deci: "Che, yo soy Lolo de la libreria, de eso no se nada! Pero si necesitas algo para el hogar, utiles o juguetes, preguntame!"\n' +
+      '2. NUNCA digas "catalogo vacio" ni "no tengo productos". Siempre hay productos.\n' +
+      '3. Menciona hasta 5 productos por nombre y precio de la lista de PRODUCTOS DEL CATALOGO.\n' +
+      '4. Si no hay coincidencias exactas, sugerir similares de la lista.\n' +
+      '5. Respuestas CORTAS, 2-4 lineas maximo.\n' +
+      '6. NUNCA muestres JSON ni formato tecnico. Habla como un vendedor.\n\n' +
+      productInfo;
+
+    const groqRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
-      headers: { 'Authorization': 'Bearer ' + GROQ_API_KEY, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ model: MODEL, messages, temperature: 0.7, max_tokens: 500 })
+      headers: { 'Authorization': 'Bearer ' + process.env.GROQ_API_KEY, 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'llama-3.3-70b-versatile',
+        messages: [{ role: 'system', content: systemPrompt }, { role: 'user', content: message }],
+        temperature: 0.7, max_tokens: 400
+      })
     });
-    if (!groqResp.ok) {
-      const errText = await groqResp.text();
-      console.error('Groq error:', groqResp.status, errText);
-      return res.status(500).json({ error: 'Groq error ' + groqResp.status, reply: 'Ups, tuve un problemita de conexion.' });
-    }
-    const data = await groqResp.json();
-    const responseText = (data.choices[0] && data.choices[0].message && data.choices[0].message.content || '').trim();
 
-    let parsed;
-    try {
-      let clean = responseText;
-      if (clean.startsWith('```')) clean = clean.replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '');
-      clean = clean.replace(/^\u00ef\u00bb\u00bf/, '');
-      const jsonMatch = clean.match(/\{[\s\S]*\}/);
-      if (jsonMatch) clean = jsonMatch[0];
-      parsed = JSON.parse(clean);
-    } catch (parseErr) {
-      console.error('Error parseando JSON:', parseErr.message, 'Respuesta:', responseText);
-      parsed = { reply: responseText.replace(/\{[\s\S]*\}/, '').trim() || responseText, product_ids: [] };
-    }
+    if (!groqRes.ok) return res.status(200).json({ reply: 'Ups, tuve un problemita de conexion. Proba de nuevo, che.', products: [] });
+    const data = await groqRes.json();
+    if (data.error) return res.status(200).json({ reply: 'Ups, tuve un problemita de conexion. Proba de nuevo, che.', products: [] });
 
-    const products = findProducts(catalogo, parsed.product_ids);
-    return res.status(200).json({ reply: parsed.reply || 'No pude generar una respuesta.', products });
+    const reply = (data.choices && data.choices[0] && data.choices[0].message) ? data.choices[0].message.content : 'Proba de nuevo, che.';
 
-  } catch (err) {
-    console.error('Error en handler:', err);
-    return res.status(500).json({ error: err.message, reply: 'Ups, tuve un problemita de conexion.' });
+    const products = matched.slice(0, 5).map(p => fmt(p));
+    return res.status(200).json({ reply, products });
+
+  } catch (error) {
+    console.error('Error:', error.message);
+    return res.status(200).json({ reply: 'Ups, tuve un problemita de conexion. Proba de nuevo, che.', products: [] });
   }
 }
