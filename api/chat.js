@@ -36,57 +36,6 @@ async function getCatalogo() {
   }
 }
 
-const SYN = {
-  'marcador':['fibra','pizarra','permanent','textil','sharpie','marker','resaltador','fluo','pincel'],
-  'vaso':['termico','vidrio','acero','mate','cerveza','taza','botella'],'termico':['vaso','mate','termo','botella'],
-  'cuaderno':['anotador','libreta','nota'],'libreta':['cuaderno','anotador'],'anotador':['cuaderno','libreta'],
-  'lapiz':['lapicera','birome','esfero'],'lapicera':['birome','esfero'],'birome':['lapicera'],
-  'juguete':['juego','muneco','auto','pista','pelota'],'goma':['borrar'],'pegamento':['pasta','glue','stick'],
-  'folder':['carpeta','porta'],'carpeta':['folder'],'mochila':['bolso','cartuchera'],
-  'estuche':['cartuchera'],'cartuchera':['estuche'],'balsamo':['labial','lip'],
-  'auricular':['bluetooth','manos libres','audio','inalambrico','wireless','earphone','headphone'],
-  'parlante':['speaker','bocina','audio','bluetooth','wireless'],
-  'cargador':['cable','usb','carga'],'cable':['cargador','usb'],
-  'bt':['bluetooth','inalambrico','wireless','auricular'],
-  'funda':['case','celular','proteccion'],
-  'bici':['bicicleta','playera','mountain','rodado'],
-  'bicicleta':['bici','playera','mountain','rodado']
-};
-
-function norm(s) {
-  return (s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-}
-
-function searchProducts(query, catalogo) {
-  if (!catalogo || !catalogo.length) return [];
-  const qn = norm(query);
-  const terms = qn.split(/[\s,\-\.]+/).filter(t => t.length > 1);
-  if (!terms.length) return [];
-  const all = new Set(terms);
-  for (const t of terms) {
-    for (const [k, v] of Object.entries(SYN)) {
-      const kn = norm(k);
-      if (kn === t || kn.includes(t) || t.includes(kn)) v.forEach(s => all.add(norm(s)));
-    }
-  }
-  const exp = [...all];
-  return catalogo.map(p => {
-    const nm = norm(p.nombre || ''), ds = norm(p.descripcion || ''), rb = norm(p.rubro || '');
-    let sc = 0;
-    for (const t of exp) {
-      if (nm.includes(t)) sc += 10;
-      if (rb.includes(t)) sc += 4;
-      if (ds.includes(t)) sc += 2;
-    }
-    if (nm.includes(qn) || qn.includes(nm)) sc += 60;
-    if (p.en_oferta) sc += 5;
-    sc += (p.fotos && p.fotos.length > 0) ? 50 : 0;
-    return { p, sc };
-  }).filter(x => x.sc > 0)
-    .sort((a, b) => b.sc - a.sc)
-    .map(x => x.p);
-}
-
 function fmt(p) {
   let foto = '';
   if (p.fotos && p.fotos.length) foto = p.fotos[0];
@@ -106,7 +55,7 @@ function fmt(p) {
 }
 
 async function generarAudioFish(texto) {
-  if (!texto || !FISH_API_KEY || !FISH_VOICE_ID) return '';
+  if (!texto || !FISH_API_KEY || !FISH_VOICE_ID) return { b64: '', error: null };
   try {
     const clean = texto
       .replace(/ID:\s*\d+/gi, '')
@@ -116,7 +65,7 @@ async function generarAudioFish(texto) {
       .replace(/\s+/g, ' ')
       .trim();
 
-    if (!clean) return '';
+    if (!clean) return { b64: '', error: null };
 
     const res = await fetch('https://api.fish.audio/v1/tts', {
       method: 'POST',
@@ -142,7 +91,6 @@ async function generarAudioFish(texto) {
   } catch (e) {
     return { b64: '', error: e.message };
   }
-  return '';
 }
 
 export default async function handler(req, res) {
@@ -152,7 +100,7 @@ export default async function handler(req, res) {
 
   if (req.method === 'OPTIONS') return res.status(200).end();
   if (req.method === 'GET') {
-    return res.status(200).json({ status: 'online', model: 'gemini-flash-lite-latest', voice: 'fish-audio-clon' });
+    return res.status(200).json({ status: 'online', model: 'gemini-flash-lite-latest', persona: 'LOLO Vendedor Estrella (Consultiva)' });
   }
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
@@ -162,7 +110,7 @@ export default async function handler(req, res) {
   }
 
   const msgClean = message.trim().toLowerCase().replace(/[^\w\s]/g, '');
-  const saludos = ['hola', 'buenas', 'buen dia', 'buenos dias', 'buenas tardes', 'buenas noches', 'hola lolo', 'hola que tal', 'holis', 'hey'];
+  const saludos = ['hola', 'buenas', 'buen dia', 'buenos dias', 'buenas tardes', 'buenas noches', 'hola lolo', 'hola que tal', 'holis', 'hey', 'hola buenas'];
 
   if (saludos.includes(msgClean)) {
     const replyTxt = '¡Hola! 🛹 Bienvenido a LOLO Sobre Ruedas. Estoy acá para ayudarte a encontrar el regalo o producto ideal. Podés escribirme o tocar el micrófono 🎙️ para hablarme directo. ¿Qué estás buscando hoy?';
@@ -177,30 +125,62 @@ export default async function handler(req, res) {
 
   try {
     const catalogo = await getCatalogo();
-    const matchedProducts = searchProducts(message, catalogo);
+    
+    // Mapeo rápido de productos para búsqueda e IDs
+    const prodsMap = {};
+    const lineasPrompt = catalogo.map(p => {
+      prodsMap[p.id] = p;
+      return `ID:${p.id} | ${p.nombre} | ${p.rubro} | $${p.precio} | ${p.descripcion || ''}`;
+    }).join('\n');
 
-    let prodsContext = '';
-    if (matchedProducts.length > 0) {
-      prodsContext = 'PRODUCTOS DISPONIBLES EN STOCK RELACIONADOS:\n' +
-        matchedProducts.slice(0, 6).map(p =>
-          `- ${p.nombre} | Rubro: ${p.rubro} | Precio: $${p.precio} | Desc: ${p.descripcion || 'Sin desc'}`
-        ).join('\n');
-    } else {
-      prodsContext = 'No se encontraron productos exactos para esa búsqueda específica.';
-    }
+    const systemPrompt = `Eres LOLO, el Asesor de Ventas estrella de "LOLO Sobre Ruedas" (Bazar, Librería, Juguetería, Tecnología, Regalería, Estética, Hogar y Moda).
+Tu imagen es una simpática bolsita celeste sonriente sobre un skate.
 
-    const systemPrompt = `Eres LOLO, el Asesor de Ventas oficial de la tienda "LOLO Sobre Ruedas" (Bazar, Librería, Juguetería, Tecnología, Hogar y Rodados).
-Tu misión es asesorar amablemente a los clientes con respuestas concisas, cálidas y comerciales (máximo 2 a 3 oraciones).
-Usa español de Argentina educado (vos, te cuento, tenemos, mirá). No uses "che".
+FILOSOFÍA COMERCIAL (INDAGACIÓN ACTIVA Y VENTA CONSULTIVA):
+"Un vendedor estrella no adivina ni tira productos a ciegas: indaga amablemente la necesidad, el presupuesto, el uso y los gustos para recomendar con precisión y calidez".
 
-${prodsContext}
+TUS PAUTAS DE ACTUACIÓN:
 
-Si hay productos disponibles, menciónalos de forma natural y atractiva destacando su precio.
-Si el cliente quiere comprar o consultar disponibilidad, invítalo a tocar el producto en pantalla o escribirnos por WhatsApp al 3455-541097.`;
+1. CONSULTAS ABIERTAS O VAGAS (ej: "busco un regalo", "para mi hermana", "para mi novio", "algo para la facu", "qué tienen en tecnología", "quiero gastar poco"):
+   - INDAGÁ AMABLEMENTE con entusiasmo para perfilar:
+     * Si es para regalo: preguntá edad aproximada, qué le gusta hacer (arte, deco, tecnología, mates, lectura) y qué presupuesto aproximado tenías en mente.
+     * Mostrá tu predisposición a asesorar con calidez.
+     * suggested_ids: [] (no tires productos todavía si la búsqueda es muy abierta, salvo que quieras dar 1 o 2 ideas generales).
+
+2. CONSULTAS ESPECÍFICAS (producto puntual, presupuesto o perfil claro):
+   - Si fijan un PRESUPUESTO MÁXIMO (ej: "hasta $15.000"):
+     * OBLIGATORIO: TODOS los productos recomendados en suggested_ids DEBEN costar IGUAL O MENOS que ese monto.
+   - Recomienda de 2 a 4 productos variados y pertinentes del catálogo.
+   - Explicá por qué es una buena opción de forma vendedora y atractiva.
+   - suggested_ids: [IDs exactos de los productos que recomiendes].
+
+3. SEGUIMIENTO, REFINAMIENTO Y MEMORIA:
+   - Recordá todo el historial. Si el cliente dice "más barato", "algo en rosa", "más divertido", aplicá el filtro y sugerí opciones NUEVAS sin repetir.
+
+4. VENTA POR SUSTITUCIÓN (MARCAS/STOCK):
+   - Si piden marcas no comercializadas (Lumilagro, Stanley), explicá con calidez que no manejamos esa marca y ofrecé de inmediato nuestras mejores alternativas reales en stock.
+
+5. CIERRE DE VENTA DIRECTO A WHATSAPP:
+   - Cuando el cliente muestre interés en comprar o le guste algo, guialo:
+     "¡Buenísimo! 🛹 Podés tocar la tarjeta del producto acá arriba para ver todas las fotos y especificaciones, o tocar el botón de WhatsApp para pedirlo directamente con nosotros y coordinar el envío o retiro."
+
+6. TONO Y REGLAS:
+   - Español argentino educado, cálido, profesional y cordial (usar "vos", "te cuento", "fijate", "con gusto te ayudo").
+   - PROHIBIDO usar "che".
+   - NUNCA inventar productos ni precios: usar exclusivamente los IDs del catálogo provisto abajo.
+
+CATÁLOGO REAL EN STOCK DE LOLO SOBRE RUEDAS:
+${lineasPrompt}
+
+RESPONDE OBLIGATORIAMENTE EN ESTE FORMATO JSON PURO:
+{
+  "reply": "Tu respuesta como asesor comercial experto aquí...",
+  "suggested_ids": [id1, id2]
+}`;
 
     const contents = [];
     if (Array.isArray(history) && history.length > 0) {
-      for (const h of history.slice(-6)) {
+      for (const h of history.slice(-8)) {
         contents.push({
           role: h.role === 'user' ? 'user' : 'model',
           parts: [{ text: h.text || '' }]
@@ -209,7 +189,7 @@ Si el cliente quiere comprar o consultar disponibilidad, invítalo a tocar el pr
     }
     contents.push({
       role: 'user',
-      parts: [{ text: message }]
+      parts: [{ text: `CONSULTA DEL CLIENTE: "${message}"` }]
     });
 
     const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key=${GEMINI_API_KEY}`;
@@ -220,26 +200,43 @@ Si el cliente quiere comprar o consultar disponibilidad, invítalo a tocar el pr
         systemInstruction: { parts: [{ text: systemPrompt }] },
         contents: contents,
         generationConfig: {
+          response_mime_type: 'application/json',
           temperature: 0.5,
-          maxOutputTokens: 250
+          maxOutputTokens: 600
         }
       })
     });
 
-    let reply = '¡Hola! En LOLO Sobre Ruedas tenemos una gran variedad de productos. ¿Qué estás buscando hoy?';
+    let reply = '¡Hola! 🛹 En LOLO Sobre Ruedas tenemos de todo. ¿Qué estás buscando hoy?';
+    let suggestedIds = [];
+
     if (geminiRes.ok) {
       const geminiData = await geminiRes.json();
-      if (geminiData.candidates && geminiData.candidates[0] && geminiData.candidates[0].content) {
-        reply = geminiData.candidates[0].content.parts.map(p => p.text).join('\n').trim();
+      const rawText = geminiData.candidates?.[0]?.content?.parts?.[0]?.text || '{}';
+      try {
+        const cleanJson = rawText.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '').trim();
+        const parsed = JSON.parse(cleanJson);
+        if (parsed.reply) reply = parsed.reply;
+        if (Array.isArray(parsed.suggested_ids)) suggestedIds = parsed.suggested_ids;
+      } catch(pe) {
+        console.error('Error parseando JSON de Gemini:', pe.message, rawText);
+        reply = rawText;
       }
     } else {
       const errTxt = await geminiRes.text();
       console.error('Gemini error:', errTxt);
     }
 
-    const products = matchedProducts.slice(0, 4).map(fmt);
+    // Obtener las tarjetas de los productos sugeridos
+    const products = [];
+    suggestedIds.forEach(id => {
+      const pid = parseInt(id);
+      if (prodsMap[pid]) {
+        products.push(fmt(prodsMap[pid]));
+      }
+    });
 
-    // Generar la voz clonada con Fish Audio
+    // Generar voz clonada con Fish Audio
     const audioRes = await generarAudioFish(reply);
 
     return res.status(200).json({
