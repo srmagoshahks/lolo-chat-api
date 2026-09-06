@@ -1,4 +1,6 @@
-﻿const GEMINI_API_KEY = process.env.GEMINI_API_KEY || ['AQ','.Ab8RN6IaGSv','-p-5hRekEgS','-Y0h9i_Vl9EAIsAAgc7','_MzFudheQ'].join('');
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY || ['AQ','.Ab8RN6IaGSv','-p-5hRekEgS','-Y0h9i_Vl9EAIsAAgc7','_MzFudheQ'].join('');
+const FISH_API_KEY = process.env.FISH_API_KEY || 'sk-fish-hOkt-ygUcJA9d3fkmwhW6XS4tvX0eEAjvLhAdq6yG40';
+const FISH_VOICE_ID = process.env.FISH_VOICE_ID || 'ee0b71b2b92343fa8792d3e34709e2c0';
 const GITHUB_CATALOG_URL = 'https://raw.githubusercontent.com/srmagoshahks/lolo-catalogo/main/index.html';
 
 let catalogoCache = { data: null, time: 0 };
@@ -47,6 +49,8 @@ const SYN = {
   'cargador':['cable','usb','carga'],'cable':['cargador','usb'],
   'bt':['bluetooth','inalambrico','wireless','auricular'],
   'funda':['case','celular','proteccion'],
+  'bici':['bicicleta','playera','mountain','rodado'],
+  'bicicleta':['bici','playera','mountain','rodado']
 };
 
 function norm(s) {
@@ -78,75 +82,128 @@ function searchProducts(query, catalogo) {
     if (p.en_oferta) sc += 5;
     sc += (p.fotos && p.fotos.length > 0) ? 50 : 0;
     return { p, sc };
-  }).filter(s => s.sc > 0).sort((a, b) => b.sc - a.sc).slice(0, 15).map(s => s.p);
+  }).filter(x => x.sc > 0)
+    .sort((a, b) => b.sc - a.sc)
+    .map(x => x.p);
 }
 
 function fmt(p) {
+  let foto = '';
+  if (p.fotos && p.fotos.length) foto = p.fotos[0];
+  else if (p.foto) foto = p.foto;
   return {
-    id: p.codigo || p.id,
-    nombre: p.nombre || 'Sin nombre',
-    precio: Number(p.precio) || 0,
-    precio_lista: Number(p.precio_lista) || Number(p.precio) || 0,
-    fotos: p.fotos || (p.foto ? [p.foto] : []),
-    rubro: p.rubro || '',
+    id: p.id,
+    codigo: p.codigo || '',
+    nombre: p.nombre,
+    precio: p.precio,
+    rubro: p.rubro,
+    foto: foto,
+    fotos: p.fotos || [],
+    en_oferta: !!p.en_oferta,
+    descuento_pct: p.descuento_pct || 0,
     descripcion: p.descripcion || ''
   };
 }
 
+async function generarAudioFish(texto) {
+  if (!texto || !FISH_API_KEY || !FISH_VOICE_ID) return '';
+  try {
+    const clean = texto
+      .replace(/ID:\s*\d+/gi, '')
+      .replace(/[\u{1F600}-\u{1F6FF}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F700}-\u{1F77F}\u{1F780}-\u{1F7FF}\u{1F800}-\u{1F8FF}\u{1F900}-\u{1F9FF}\u{1FA00}-\u{1FA6F}\u{1FA70}-\u{1FAFF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, '')
+      .replace(/\$([\d\.]+)/g, '$1 pesos')
+      .replace(/[*_#`]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    if (!clean) return '';
+
+    const res = await fetch('https://api.fish.audio/v1/tts', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${FISH_API_KEY}`,
+        'Content-Type': 'application/json',
+        'model': 's2.1-pro-free'
+      },
+      body: JSON.stringify({
+        text: clean,
+        reference_id: FISH_VOICE_ID,
+        format: 'mp3'
+      })
+    });
+
+    if (res.ok) {
+      const arrayBuffer = await res.arrayBuffer();
+      const buffer = Buffer.from(arrayBuffer);
+      return buffer.toString('base64');
+    } else {
+      const errText = await res.text();
+      console.error('Error Fish Audio:', res.status, errText);
+    }
+  } catch (e) {
+    console.error('Error en llamada a Fish Audio:', e.message);
+  }
+  return '';
+}
+
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET,POST,OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
-  if (req.method === 'OPTIONS') {
-    return res.status(200).end();
+  if (req.method === 'OPTIONS') return res.status(200).end();
+  if (req.method === 'GET') {
+    return res.status(200).json({ status: 'online', model: 'gemini-flash-lite-latest', voice: 'fish-audio-clon' });
+  }
+  if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
+
+  const { message, history } = req.body || {};
+  if (!message || !message.trim()) {
+    return res.status(400).json({ error: 'Mensaje requerido' });
   }
 
-  if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method not allowed' });
+  const msgClean = message.trim().toLowerCase().replace(/[^\w\s]/g, '');
+  const saludos = ['hola', 'buenas', 'buen dia', 'buenos dias', 'buenas tardes', 'buenas noches', 'hola lolo', 'hola que tal', 'holis', 'hey'];
+
+  if (saludos.includes(msgClean)) {
+    const replyTxt = '¡Hola! 🛹 Bienvenido a LOLO Sobre Ruedas. Estoy acá para ayudarte a encontrar el regalo o producto ideal. Podés escribirme o tocar el micrófono 🎙️ para hablarme directo. ¿Qué estás buscando hoy?';
+    const audioB64 = await generarAudioFish(replyTxt);
+    return res.status(200).json({
+      reply: replyTxt,
+      products: [],
+      audio_b64: audioB64
+    });
   }
 
   try {
-    const { message, history } = req.body || {};
-    if (!message) {
-      return res.status(200).json({ reply: '¿Qué producto estás buscando hoy?', products: [] });
-    }
-
     const catalogo = await getCatalogo();
     const matchedProducts = searchProducts(message, catalogo);
 
-    let productContext = '';
+    let prodsContext = '';
     if (matchedProducts.length > 0) {
-      productContext = '\n\nPRODUCTOS DISPONIBLES EN STOCK DE LOLO SOBRE RUEDAS:\n' +
-        matchedProducts.slice(0, 8).map((p, idx) => {
-          const pr = p.precio ? `$${Number(p.precio).toLocaleString('es-AR')}` : '';
-          return `${idx + 1}. ${p.nombre} (${p.rubro || 'General'}) - ${pr} | ${p.descripcion || ''}`;
-        }).join('\n');
+      prodsContext = 'PRODUCTOS DISPONIBLES EN STOCK RELACIONADOS:\n' +
+        matchedProducts.slice(0, 6).map(p =>
+          `- ${p.nombre} | Rubro: ${p.rubro} | Precio: $${p.precio} | Desc: ${p.descripcion || 'Sin desc'}`
+        ).join('\n');
     } else {
-      const destacados = catalogo.slice(0, 6).map(p => `${p.nombre} - $${p.precio}`).join(', ');
-      productContext = `\n\nAlgunos productos destacados en tienda: ${destacados}`;
+      prodsContext = 'No se encontraron productos exactos para esa búsqueda específica.';
     }
 
-    const systemPrompt = `Sos LOLO, el simpático y experto Asesor de Ventas de "LOLO Sobre Ruedas" (Bazar, Librería, Juguetería, Tecnología, Hogar y Regalería).
-Tu imagen es una bolsita celeste con skate. Hablás en español argentino (amable, profesional y cálido, usando 'vos', sin decir 'che').
+    const systemPrompt = `Eres LOLO, el Asesor de Ventas oficial de la tienda "LOLO Sobre Ruedas" (Bazar, Librería, Juguetería, Tecnología, Hogar y Rodados).
+Tu misión es asesorar amablemente a los clientes con respuestas concisas, cálidas y comerciales (máximo 2 a 3 oraciones).
+Usa español de Argentina educado (vos, te cuento, tenemos, mirá). No uses "che".
 
-INSTRUCCIONES CLAVE:
-1. Respondé en 2 a 3 oraciones cortas, fluidas y directas para que sea rápido y agradable de leer o escuchar.
-2. Si el cliente pregunta por productos, recomendá basándote en los PRODUCTOS DISPONIBLES en stock.
-3. Si el cliente saluda ("hola", "buenas"), dale una cálida bienvenida a LOLO Sobre Ruedas y preguntale qué está buscando o para quién es el regalo.
-4. Mencioná precios en pesos argentinos.
-5. Si quieren comprar o pedir, recordales que pueden tocar la tarjeta del producto o escribir directamente al WhatsApp de la tienda.
-6. NUNCA inventes productos raros fuera del catálogo.
+${prodsContext}
 
-${productContext}`;
+Si hay productos disponibles, menciónalos de forma natural y atractiva destacando su precio.
+Si el cliente quiere comprar o consultar disponibilidad, invítalo a tocar el producto en pantalla o escribirnos por WhatsApp al 3455-541097.`;
 
     const contents = [];
-    if (Array.isArray(history)) {
+    if (Array.isArray(history) && history.length > 0) {
       for (const h of history.slice(-6)) {
-        if (!h.text) continue;
         contents.push({
           role: h.role === 'user' ? 'user' : 'model',
-          parts: [{ text: h.text }]
+          parts: [{ text: h.text || '' }]
         });
       }
     }
@@ -155,7 +212,7 @@ ${productContext}`;
       parts: [{ text: message }]
     });
 
-    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${GEMINI_API_KEY}`;
+    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key=${GEMINI_API_KEY}`;
     const geminiRes = await fetch(geminiUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -163,13 +220,13 @@ ${productContext}`;
         systemInstruction: { parts: [{ text: systemPrompt }] },
         contents: contents,
         generationConfig: {
-          temperature: 0.7,
-          maxOutputTokens: 300
+          temperature: 0.5,
+          maxOutputTokens: 250
         }
       })
     });
 
-    let reply = '¡Hola! Bienvenido a LOLO Sobre Ruedas. ¿En qué te puedo asesorar hoy?';
+    let reply = '¡Hola! En LOLO Sobre Ruedas tenemos una gran variedad de productos. ¿Qué estás buscando hoy?';
     if (geminiRes.ok) {
       const geminiData = await geminiRes.json();
       if (geminiData.candidates && geminiData.candidates[0] && geminiData.candidates[0].content) {
@@ -182,16 +239,23 @@ ${productContext}`;
 
     const products = matchedProducts.slice(0, 4).map(fmt);
 
+    // Generar la voz clonada con Fish Audio
+    const audioB64 = await generarAudioFish(reply);
+
     return res.status(200).json({
       reply: reply,
-      products: products
+      products: products,
+      audio_b64: audioB64
     });
 
   } catch (err) {
     console.error('Error in chat handler:', err.message);
+    const fallbackTxt = 'Disculpame, tuve una pequeña demora de conexión. Si necesitás algo urgente, podés consultarnos directamente por WhatsApp.';
+    const audioB64 = await generarAudioFish(fallbackTxt);
     return res.status(200).json({
-      reply: '¡Hola! Bienvenido a LOLO Sobre Ruedas. Estoy acá para ayudarte con todo nuestro catálogo. ¿Qué estás buscando hoy?',
-      products: []
+      reply: fallbackTxt,
+      products: [],
+      audio_b64: audioB64
     });
   }
 }
