@@ -1,6 +1,6 @@
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY || ['AQ','.Ab8RN6IaGSv','-p-5hRekEgS','-Y0h9i_Vl9EAIsAAgc7','_MzFudheQ'].join('');
-const FISH_API_KEY = process.env.FISH_API_KEY || 'sk-fish-hOkt-ygUcJA9d3fkmwhW6XS4tvX0eEAjvLhAdq6yG40';
-const FISH_VOICE_ID = process.env.FISH_VOICE_ID || 'ee0b71b2b92343fa8792d3e34709e2c0';
+const FISH_API_KEY = 'sk-fish-hOkt-ygUcJA9d3fkmwhW6XS4tvX0eEAjvLhAdq6yG40';
+const FISH_VOICE_ID = 'ee0b71b2b92343fa8792d3e34709e2c0';
 const GITHUB_CATALOG_URL = 'https://raw.githubusercontent.com/srmagoshahks/lolo-catalogo/main/index.html';
 
 let catalogoCache = { data: null, time: 0 };
