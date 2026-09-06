@@ -134,13 +134,13 @@ async function generarAudioFish(texto) {
     if (res.ok) {
       const arrayBuffer = await res.arrayBuffer();
       const buffer = Buffer.from(arrayBuffer);
-      return buffer.toString('base64');
+      return { b64: buffer.toString('base64'), error: null };
     } else {
       const errText = await res.text();
-      console.error('Error Fish Audio:', res.status, errText);
+      return { b64: '', error: `HTTP ${res.status}: ${errText}` };
     }
   } catch (e) {
-    console.error('Error en llamada a Fish Audio:', e.message);
+    return { b64: '', error: e.message };
   }
   return '';
 }
@@ -166,11 +166,12 @@ export default async function handler(req, res) {
 
   if (saludos.includes(msgClean)) {
     const replyTxt = '¡Hola! 🛹 Bienvenido a LOLO Sobre Ruedas. Estoy acá para ayudarte a encontrar el regalo o producto ideal. Podés escribirme o tocar el micrófono 🎙️ para hablarme directo. ¿Qué estás buscando hoy?';
-    const audioB64 = await generarAudioFish(replyTxt);
+    const audioRes = await generarAudioFish(replyTxt);
     return res.status(200).json({
       reply: replyTxt,
       products: [],
-      audio_b64: audioB64
+      audio_b64: audioRes.b64,
+      audio_error: audioRes.error
     });
   }
 
@@ -239,22 +240,24 @@ Si el cliente quiere comprar o consultar disponibilidad, invítalo a tocar el pr
     const products = matchedProducts.slice(0, 4).map(fmt);
 
     // Generar la voz clonada con Fish Audio
-    const audioB64 = await generarAudioFish(reply);
+    const audioRes = await generarAudioFish(reply);
 
     return res.status(200).json({
       reply: reply,
       products: products,
-      audio_b64: audioB64
+      audio_b64: audioRes.b64,
+      audio_error: audioRes.error
     });
 
   } catch (err) {
     console.error('Error in chat handler:', err.message);
     const fallbackTxt = 'Disculpame, tuve una pequeña demora de conexión. Si necesitás algo urgente, podés consultarnos directamente por WhatsApp.';
-    const audioB64 = await generarAudioFish(fallbackTxt);
+    const audioRes = await generarAudioFish(fallbackTxt);
     return res.status(200).json({
       reply: fallbackTxt,
       products: [],
-      audio_b64: audioB64
+      audio_b64: audioRes.b64,
+      audio_error: audioRes.error
     });
   }
 }
