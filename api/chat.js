@@ -71,7 +71,8 @@ async function generarAudioFish(texto) {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${FISH_API_KEY}`,
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'model': 's2.1-pro-free'
       },
       body: JSON.stringify({
         text: clean,
